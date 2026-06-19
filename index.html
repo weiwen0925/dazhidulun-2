@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
-
+<meta name="robots" content="index,follow,noai,noimageai">
 <title>大智度論 · 卷二 · 第一品至第二十品 · 彙整本</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -253,6 +253,7 @@ body{font-size:20px!important;}
 .sb-label{font-size:11.5px!important;}
 .site-footer,.site-footer p{font-size:15px!important;}
 
+
 /* === 圓內中文數字防擠 (toc-num / sb-circle) === */
 .toc-num{
   width:42px!important;height:42px!important;
@@ -278,8 +279,37 @@ body{font-size:20px!important;}
 }
 </style>
 <meta name="wy-full-protection" content="v2-silent">
-<meta name="robots" content="noai,noimageai,noarchive,index">
-<meta name="googlebot" content="noai,noimageai">
+<!-- ===== SEO · description / keywords / Open Graph / Twitter ===== -->
+<meta name="description" content="《大智度論》卷二 · 第一品至第二十品彙整本。龍樹菩薩造、鳩摩羅什譯。從『如是我聞』、結集三藏、阿毘曇源流，到婆伽婆釋論、習氣、諸佛萬德名號、正遍知、明行具足、修伽陀、世間解、阿耨多羅、調御丈夫、天人師、佛智勝天論、名號即實相、從放牛見如來、智者之辯、佛陀的沈默、誰是一切智人——20 品中觀邏輯全景解析，含八不中道、二諦融通、緣起性空、十四難辯證。">
+<meta name="keywords" content="大智度論,大智度論卷二,龍樹菩薩,鳩摩羅什,諸佛十號,結集三藏,如是我聞,阿毘曇,婆伽婆,Bhagavat,習氣,vāsanā,多陀阿伽陀,如來,正遍知,三藐三佛陀,明行具足,三明,修伽陀,世間解,路迦憊,阿耨多羅,無上,調御丈夫,天人師,佛智勝天論,名號即實相,放牛見如來,智者之辯,佛陀的沈默,十四難,一切智人,中觀邏輯,八不中道,二諦,緣起性空,中論,中觀,佛教,佛學,漢傳佛教,般若">
+<meta name="author" content="智論彙整 · chengweiwen">
+<meta name="language" content="zh-Hant">
+<link rel="canonical" href="https://weiwen0925.github.io/dazhidulun-2/">
+
+<!-- Open Graph (Facebook / LINE / WhatsApp 分享預覽) -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="智論彙整">
+<meta property="og:title" content="大智度論 · 卷二 · 第一品至第二十品 · 彙整本">
+<meta property="og:description" content="龍樹菩薩造、鳩摩羅什譯。卷二從『如是我聞』三幕辯證起手，逐品解析諸佛十號之中觀邏輯，最後以『婆伽婆 = 一切智人』收束。20 品全卷彙整、章節橋接、二諦八不、八不中道。">
+<meta property="og:url" content="https://weiwen0925.github.io/dazhidulun-2/">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://weiwen0925.github.io/dazhidulun-2/og-cover.jpg">
+<meta property="og:image:alt" content="大智度論卷二 · 二十品彙整">
+<meta property="article:author" content="chengweiwen">
+<meta property="article:section" content="佛學經論 · 中觀">
+<meta property="article:tag" content="大智度論">
+<meta property="article:tag" content="龍樹菩薩">
+<meta property="article:tag" content="中觀邏輯">
+<meta property="article:tag" content="諸佛十號">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="大智度論 · 卷二 · 第一品至第二十品 · 彙整本">
+<meta name="twitter:description" content="龍樹菩薩造、鳩摩羅什譯。卷二 20 品中觀邏輯全景解析，從結集三藏到諸佛十號辯證。">
+<meta name="twitter:image" content="https://weiwen0925.github.io/dazhidulun-2/og-cover.jpg">
+
+<meta name="robots" content="index,follow,noai,noimageai">
+<meta name="googlebot" content="index,follow,noai,noimageai">
 <meta name="GPTBot" content="noai">
 <meta name="ChatGPT-User" content="noai,noimageai">
 <meta name="CCBot" content="noai">
@@ -364,7 +394,6 @@ body{font-size:20px!important;}
   });
 })();
 </script>
-<meta name="description" content="《大智度論》卷二·緣起性空與結集——龍樹菩薩造、鳩摩羅什譯。本卷釋緣起性空與結集、結集三藏、婆伽婆釋論、習氣與婆伽婆義、明行具足、修伽陀；逐句線上閱讀。">
 </head>
 <body>
 <a id="top" style="position:absolute;top:0;left:0;width:1px;height:1px;overflow:hidden;"></a>
@@ -760,6 +789,65 @@ if(backTop) backTop.addEventListener('click', function(){
       });
     }
   });
+})();
+</script>
+<script id="wy-deeplink">
+/* 節層級錨點：#chapter-{品}-{章}-{節}
+   支援：#chapter-N、#chapter-N-X、#chapter-N-X-Y
+   依賴：wy-decoder 解碼後 iframe 才有內容 → 透過 __wyReady + 多次 retry 確保跳轉成功 */
+(function(){
+  function wyDeepLink(){
+    var h = location.hash;
+    if(!h || h.length < 2) return;
+    var m = h.match(/^#chapter-(\d+)(?:-(\d+))?(?:-(\d+))?$/);
+    if(!m) return;
+    var p = parseInt(m[1], 10);
+    var c = m[2] ? parseInt(m[2], 10) : null;
+    var s = m[3] ? parseInt(m[3], 10) : null;
+    var outerCh = document.getElementById('chapter-' + p);
+    if(!outerCh) return;
+    var oRect = outerCh.getBoundingClientRect();
+    window.scrollTo({top: window.scrollY + oRect.top - 10, behavior:'smooth'});
+    if(c === null) return;
+    var iframe = outerCh.querySelector('iframe.ch-frame');
+    if(!iframe) return;
+    var tries = 0;
+    function tryJump(){
+      tries++;
+      var idoc;
+      try{ idoc = iframe.contentDocument || iframe.contentWindow.document; }catch(e){ return; }
+      if(!idoc || !idoc.body || idoc.body.children.length < 2){
+        if(tries < 60) return setTimeout(tryJump, 250);
+        return;
+      }
+      var chEl = idoc.getElementById('chapter-' + c)
+              || idoc.getElementById('ch' + c)
+              || idoc.querySelectorAll('section.chapter, .chapter')[c-1];
+      if(!chEl) return;
+      var frRect = iframe.getBoundingClientRect();
+      var rect   = chEl.getBoundingClientRect();
+      var targetY = window.scrollY + frRect.top + rect.top - 60;
+      if(s === null){
+        window.scrollTo({top: targetY, behavior:'smooth'});
+        return;
+      }
+      var h2s = chEl.querySelectorAll('h2');
+      if(h2s.length < s) return;
+      var secEl = h2s[s-1];
+      var rect2 = secEl.getBoundingClientRect();
+      var targetY2 = window.scrollY + frRect.top + rect2.top - 60;
+      window.scrollTo({top: targetY2, behavior:'smooth'});
+    }
+    setTimeout(tryJump, 200);
+  }
+  window.addEventListener('hashchange', wyDeepLink);
+  if(window.__wyReady && window.__wyReady.then){
+    window.__wyReady.then(function(){
+      setTimeout(wyDeepLink, 600);
+    });
+  } else {
+    window.addEventListener('load', function(){ setTimeout(wyDeepLink, 1200); });
+  }
 })();
 </script>
 </body>
