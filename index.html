@@ -1218,63 +1218,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P7:BEGIN-->
-<style id="wy-c2p7-css">
-.c2p7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p7-fabbox.show{display:block;}
-.c2p7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p7-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p7-modal.open{display:flex;}
-.c2p7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p7-close:hover{background:#e3d5b8;}
-.c2p7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p7-tbl th,.c2p7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p7-fabbox{right:14px;}.c2p7-tbl{font-size:11.5px;}.c2p7-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p7-fabbox" id="c2p7Box"><button class="c2p7-btn" id="c2p7Btn" type="button" aria-label="開啟全景總表"><span class="c2p7-ic">&#9638;</span><span class="c2p7-ls"><span class="c2p7-l1">本品 &middot; 正遍知之實義與法相</span><span class="c2p7-l2">正質遍量・三層次架構・能所一如</span></span></button></div><div class="c2p7-modal" id="c2p7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p7-card"><button class="c2p7-close" id="c2p7Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第七品 正遍知之實義與法相 · 全景總表</h3><p class="sub">卷二・第7品｜全七章｜正遍知三層次・能所一如</p><table class="c2p7-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>經文本源</td><td>三段式結構——定義拆字（正遍知一切法）、四聖諦知苦如苦相等、實不壞相不增不減、悉知十方眾生心相結使，三段對應深度與廣度</td><td>三段式結構、正遍知一切法、白話疏通</td></tr><tr><td>第二章</td><td>詞義拆解：正＋遍＝知</td><td>三藐（正/質）＋三（遍/量）＝佛陀（知），質量不可偏廢——有正無遍落偏空，有遍無正落世智辯聰，梵語語序印證修證次第</td><td>正質遍量、偏空、世智辯聰</td></tr><tr><td>第三章</td><td>三層次認知架構</td><td>Tier1實踐解脫（四聖諦因果診斷）、Tier2本體超越（實不壞相心行處滅言語道斷）、Tier3全知遍照（十方眾生心相結使善根出要），三層並具方為完整佛陀智慧</td><td>Tier1-3、四聖諦因果、實不壞相</td></tr><tr><td>第四章</td><td>三大心法</td><td>三層次轉譯為可操作心法——如實觀照（不增不減鏡照）、無分別止息（剪繩結非壓抑）、契機拔苦（觀機逗教精準醫療）</td><td>如實觀照、無分別止息、契機拔苦</td></tr><tr><td>第五章</td><td>中觀二諦融通</td><td>世俗諦（緣起遍知四聖諦與眾生心）與勝義諦（性空正知八不實不壞相）以∞符號象徵圓融，不捨世俗而證勝義</td><td>二諦圓融、八不、∞象徵</td></tr><tr><td>第六章</td><td>術語深度解析：實不壞相・諸結使</td><td>實不壞相非物理堅固乃無為法本性（非金剛石之喻）；結使＝結（靜態繫縛）＋使（動態驅力），佛陀遍知結使是慈悲而非神通炫耀</td><td>實不壞相、結使、應病與藥</td></tr><tr><td>第七章</td><td>總結：智慧的本質</td><td>專家總表歸納經文層次心法二諦四欄對應；終極命題——智慧是能知之心（空）與所知之境（有）同時證悟的能所一如</td><td>Recap Matrix、能所一如、一盞燈的譬喻</td></tr></tbody></table><p class="c2p7-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p7-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p7Btn"),BOX=document.getElementById("c2p7Box"),MODAL=document.getElementById("c2p7Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=6;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p7Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P7:END-->
 
 <!--WY-C2P8:BEGIN-->
 <style id="wy-c2p8-css">
@@ -2390,5 +2333,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P6:END-->
+<!--WY-C2P7:BEGIN-->
+<style id="wy-c2p7-css">
+.c2p7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p7-fabbox.show{display:block;}
+.c2p7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p7-modal.open{display:flex;}
+.c2p7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p7-close:hover{background:#e3d5b8;}
+.c2p7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p7-tbl th,.c2p7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p7-tbl b{color:#8b2500;}
+.c2p7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p7-note b{color:#8b2500;}
+@media(max-width:900px){.c2p7-fabbox{right:14px;}.c2p7-tbl{font-size:11.5px;}.c2p7-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p7-fabbox" id="c2p7Box"><button class="c2p7-btn" id="c2p7Btn" type="button" aria-label="開啟全景總表"><span class="c2p7-ic">▦</span><span class="c2p7-ls"><span class="c2p7-l1">本品 · 正遍知釋論</span><span class="c2p7-l2">三藐三佛陀・正遍知一切法</span></span></button></div><div class="c2p7-modal" id="c2p7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p7-card"><button class="c2p7-close" id="c2p7Close" type="button" aria-label="關閉">×</button><h3>卷二·第七品 正遍知釋論 · 全景總表</h3><p class="sub">卷二・第7品｜全七章｜三層次認知架構・二諦融通・能所一如</p><table class="c2p7-tbl"><caption>一、正遍知的三段式定義（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>字義拆解</td><td>「三藐」名正、「三」名遍、「佛」名知——正管質（契合勝義不偏不倚）、遍管量（涵蓋世俗周遍一切）、知是質量之完美綜合</td></tr><tr><td>經文三段</td><td>知苦集滅道四諦相（第一段）、知一切法實不壞相不增不減心行處滅言語道斷（第二段）、遍知十方世界眾生心相結使善根出要（第三段）</td></tr><tr><td>三層次架構</td><td>Tier1實踐解脫（四聖諦因果診斷）→Tier2本體超越（實不壞相・言語道斷）→Tier3全知遍照（時間空間心識三維度遍知）</td></tr><tr><td>為何三層並列</td><td>僅Tier1是聲聞境界（解脫不圓滿），僅Tier2是緣覺境界（不起差別智不度眾），三層並具方是佛陀智慧</td></tr><tr><td>修證次第印證</td><td>梵語 samyak（正）在前、saṃ（遍）居中、buddha（知）居末，反映先證空性之正，才能開展差別智之遍，最後匯歸能所一如之知</td></tr></tbody></table><table class="c2p7-tbl"><caption>二、三大心法與術語辨析（正遍知的實踐轉化）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>心法一如實觀照</td><td>「知苦如苦相」不增不減，不因悲觀誇大痛苦亦不因樂觀逃避痛苦，心如鏡子清明反映當下</td></tr><tr><td>心法二無分別止息</td><td>「心行處滅言語道斷」非壓抑而是讓分別念自然停下，如剪斷繩結回到本來順流狀態</td></tr><tr><td>心法三契機拔苦</td><td>遍知眾生結使（病灶）善根（體質）出要（藥方），觀機逗教是慈悲與智慧的接合點</td></tr><tr><td>實不壞相辨析</td><td>非物理堅固而是「無為法」不從因緣生故不從因緣滅，非實體（獨立自存之物）而是實相（一切法之本來面目）</td></tr><tr><td>諸結使辨析</td><td>結（靜態繫縛如繩扣）與使（動態驅迫如業力）合觀，佛遍知結使非為譴責而是「應病與藥」的診斷前提</td></tr></tbody></table><table class="c2p7-tbl"><caption>三、二諦融通與智慧的本質（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世俗諦即遍</td><td>知四聖諦因果機制、知十方眾生心相結使，緣起網絡歷歷分明，此即「遍」之所依</td></tr><tr><td>勝義諦即正</td><td>一切法本性皆空不生不滅不增不減（中觀八不所詮實不壞相），佛證悟此不動本體，此即「正」之所依</td></tr><tr><td>二諦圓融</td><td>不捨世俗而證勝義，在寂靜中同時觀照萬法，以∞象徵兩環同時封閉又開放，交會中點即是佛陀</td></tr><tr><td>Tier3何以屬世俗</td><td>所知對象（十方眾生名號結使）屬緣起範疇故為世俗，但能知的心已是勝義空性心，真俗不二方為佛陀</td></tr><tr><td>能所一如</td><td>智慧不只是知識的累積，而是同時證悟能知的心（空）與所知的境（有），知一即能容納一切</td></tr></tbody></table><p class="c2p7-note">本品僅以百餘字定義「三藐三佛陀」，卻藏著一條從實踐解脫、經本體超越、到全知遍照的完整知見架構。「正」管質、「遍」管量，二者不可偏廢——有正無遍則偏空自度，有遍無正則世智辯聰；唯有正遍圓具，才是佛陀智慧的真正定義。三大心法（如實觀照、無分別止息、契機拔苦）把這套架構從名相落實為可操作的內在體驗，而二諦融通則揭示了最深的弔詭：<b>所知雖是差別之俗，能知卻是空性之真</b>，真俗不二，方名正遍知。</p></div></div>
+<script id="wy-c2p7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p7Btn"),BOX=document.getElementById("c2p7Box"),MODAL=document.getElementById("c2p7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P7:END-->
 </body>
 </html>
