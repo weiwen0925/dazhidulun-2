@@ -1228,63 +1228,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P17:BEGIN-->
-<style id="wy-c2p17-css">
-.c2p17-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p17-fabbox.show{display:block;}
-.c2p17-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p17-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p17-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p17-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p17-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p17-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p17-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p17-modal.open{display:flex;}
-.c2p17-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p17-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p17-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p17-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p17-close:hover{background:#e3d5b8;}
-.c2p17-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p17-tbl th,.c2p17-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p17-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p17-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p17-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p17-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p17-fabbox{right:14px;}.c2p17-tbl{font-size:11.5px;}.c2p17-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p17-fabbox" id="c2p17Box"><button class="c2p17-btn" id="c2p17Btn" type="button" aria-label="開啟全景總表"><span class="c2p17-ic">&#9638;</span><span class="c2p17-ls"><span class="c2p17-l1">本品 &middot; 從放牛見如來</span><span class="c2p17-l2">放牛十一法・專家的降伏</span></span></button></div><div class="c2p17-modal" id="c2p17Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p17-card"><button class="c2p17-close" id="c2p17Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十七品 從放牛見如來 · 全景總表</h3><p class="sub">卷二・第17品｜全九章｜放牛十一法・世俗勝義雙重義理</p><table class="c2p17-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>序章</td><td>導言：放牛何以見如來</td><td>命題——一切智Sarvajña是否可能如何被驗證；選最缺乏論辯資源的放牛人專家而非哲學家完成驗證；全品三部九章架構導覽</td><td>一切智命題、放牛人為證人</td></tr><tr><td>第一章</td><td>命題：一切智的存有與質疑</td><td>外道質疑「汝愛剎利種淨飯王子故大稱讚」將一切智化約情感偏好；佛弟子以「相德明具勝一切人」現象學指標反擊，戰場從概念轉移到現象</td><td>經驗主義質疑、由相證智</td></tr><tr><td>第二章</td><td>挑戰者：專家的傲慢</td><td>頻婆娑羅王供養因緣，放牛人受婆羅門耳語灌輸六十四種伎藝知識，設計「放牛祕法」測試——專業鴻溝＋壟斷知識＋可驗證性＋歸謬邏輯</td><td>放牛祕法測試、婆羅門耳語、專家歸謬</td></tr><tr><td>第三章</td><td>直觀邏輯：相由心生，果必證因</td><td>放牛人見佛身相金山紫金光心大歡喜自發讚歎偈，「若有一切智必有是功德」由果證因反推論式，相即業感非以貌取人</td><td>讚歎偈、由果證因、相即業感</td></tr><tr><td>第四章</td><td>驗證時刻：放牛十一法</td><td>十一法（知色相刮刷覆瘡作煙好道宜處度濟安隱留乳養牛主）逐一世俗諦放牛技術對勝義諦修道心法，分認知三法行動六法社群二法三層次</td><td>放牛十一法、世俗勝義雙重義、三層次架構</td></tr><tr><td>第五章</td><td>專家的降伏：從技術到嘆未曾有</td><td>放牛人自白所知不過三四事放牛師輩不過五六事，佛陀十一法全通，「若知此事餘亦皆爾」歸納的信任推移，嘆未曾有為認知系統被開啟</td><td>專家自我揭露、歸納信任推移、嘆未曾有</td></tr><tr><td>第六章</td><td>邏輯復盤：全知的結構</td><td>一切智＝二諦圓融不離世間覺，世俗諦極致掌握（草蟲乳道）與勝義諦導向（說法煙引眾生入無我實相空舍）合為橫跨現象界本體界的橋樑</td><td>二諦圓融、以幻修幻、橋樑意象</td></tr><tr><td>第七章</td><td>觸目皆道：生活禪的心法</td><td>慈悲的經濟學（留乳＝知節量不竭澤而漁，供養施主信心受者無乏三方互利）與觀機逗教溝通術（度濟＝受眾中心選平緩處而渡）二核心心法</td><td>慈悲的經濟學、觀機逗教、生活禪四啟示</td></tr><tr><td>第八章</td><td>結論：從專家到覺者</td><td>知識如何轉化解脫智慧，真智慧四特質通透性無礙性入世性轉化性；不必離開放牛場也能見如來，能見便是覺者不能見便是專家</td><td>專家到覺者、四項特質、原典全文回顧</td></tr></tbody></table><p class="c2p17-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p17-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p17Btn"),BOX=document.getElementById("c2p17Box"),MODAL=document.getElementById("c2p17Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=16;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p17Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P17:END-->
 
 <!--WY-C2P18:BEGIN-->
 <style id="wy-c2p18-css">
@@ -2350,5 +2293,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P16:END-->
+<!--WY-C2P17:BEGIN-->
+<style id="wy-c2p17-css">
+.c2p17-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p17-fabbox.show{display:block;}
+.c2p17-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p17-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p17-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p17-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p17-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p17-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p17-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p17-modal.open{display:flex;}
+.c2p17-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p17-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p17-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p17-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p17-close:hover{background:#e3d5b8;}
+.c2p17-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p17-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p17-tbl th,.c2p17-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p17-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p17-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p17-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p17-tbl b{color:#8b2500;}
+.c2p17-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p17-note b{color:#8b2500;}
+@media(max-width:900px){.c2p17-fabbox{right:14px;}.c2p17-tbl{font-size:11.5px;}.c2p17-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p17-fabbox" id="c2p17Box"><button class="c2p17-btn" id="c2p17Btn" type="button" aria-label="開啟全景總表"><span class="c2p17-ic">▦</span><span class="c2p17-ls"><span class="c2p17-l1">本品 · 放牛譬喻釋論</span><span class="c2p17-l2">十一法二諦・以相證智</span></span></button></div><div class="c2p17-modal" id="c2p17Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p17-card"><button class="c2p17-close" id="c2p17Close" type="button" aria-label="關閉">×</button><h3>卷二·第十七品 放牛譬喻釋論 · 全景總表</h3><p class="sub">卷二・第17品｜全九章｜放牛十一法・專家的降伏・二諦圓融</p><table class="c2p17-tbl"><caption>一、放牛人的挑戰與以相證智（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>外道質疑與轉戰現象</td><td>外道把一切智存在問題化約為情感偏好，佛弟子則以「相德明具，勝一切人」的現象學指標反擊，戰場從概念轉移到現象</td></tr><tr><td>專家的傲慢</td><td>婆羅門耳語灌輸六十四種世間伎藝詞彙，放牛人以「淨飯王子不曾放牛」設計歸謬測試——專業鴻溝加壟斷性知識加可驗證性加歸謬邏輯</td></tr><tr><td>視覺衝擊先於論辯</td><td>放牛人見佛「狀似金山，紫金光色，視之無厭」，論辯機制尚未啟動便被身相之美攔截，「若有一切智，必有是功德」</td></tr><tr><td>由果證因的反推</td><td>莊嚴身相（果，可見具體）反推一切智（因，抽象待驗），相即業感，是長期善業的具體化石，非樸素的以貌取人</td></tr><tr><td>十一法問答總覽</td><td>知色知相知刮刷知覆瘡知作煙知好道知牛所宜處知好度濟知安隱處知留乳知養牛主，每法皆具世俗諦放牛技術與勝義諦修道心法雙重解讀</td></tr></tbody></table><table class="c2p17-tbl"><caption>二、十一法的三層結構（世俗諦與勝義諦的雙重展開）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>認知三法</td><td>知色（黑白雜色／一切色皆四大造）、知相（吉凶相／見善惡業相知智愚）、知刮刷（除蟲害瘡／除惡邪覺觀蟲飲善根血）</td></tr><tr><td>行動六法之防護引導</td><td>知覆瘡（衣草防蚊虻／正觀法覆六情瘡）、知作煙（引牛歸舍／說法煙引眾生入無我實相空舍）、知道（知好惡道／知八聖道離斷常）</td></tr><tr><td>行動六法之育成教化</td><td>知牛所宜處（令牛番息少病／聞法得清淨法喜）、知好度濟（易入易度處／觀機逗教令安隱得度）、知安隱處（無毒獸處／四念處無煩惱惡魔）</td></tr><tr><td>社群二法</td><td>知留乳（留殘乳犢母歡喜／受供養知節量令施主歡喜信心不絕）、知養牛主（護大特牛不令羸瘦／護持僧中大人摧伏外道）</td></tr><tr><td>專家的降伏</td><td>放牛人自白「我等所知不過三四事，放牛師輩遠不過五六事」，聞十一法全通而「歎未曾有」，由專家的自我揭露完成理性降伏而非感性皈依</td></tr></tbody></table><table class="c2p17-tbl"><caption>三、二諦圓融的橋樑意象（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>世俗諦的極致掌握</td><td>草蟲乳道四個關鍵字構成放牛的完整生態學，佛對它們的掌握勝過終身從事者——一切智包含對現象界的絕對熟悉</td></tr><tr><td>勝義諦的導向</td><td>每一法皆同時指向空性與解脫，「以說法煙，引眾生入於無我實相空舍中」是以幻修幻的最佳註腳</td></tr><tr><td>現象界與本體界的橋樑</td><td>一切智是連結兩岸的能力，佛陀自在往來——既能徹見牛的習性，又能洞察牛的空性</td></tr><tr><td>慈悲的經濟學</td><td>留乳法揭示可持續的關係經濟學，留殘乳給犢子則牛主放牛人皆長久受益，接受供養知節量則施主信心不絕受者無乏</td></tr><tr><td>觸目皆道</td><td>自省即刮刷、知足即留乳、律己即覆瘡、溝通即度濟，十一法沒有一法是出世間的特權，每一法都能在現代生活中找到對應實踐</td></tr></tbody></table><p class="c2p17-note">本品以摩伽陀國放牛人測試佛陀的一則敘事，證明「一切智」不是封閉於專業之外的神秘境界，而是「在世間萬法之中徹底通達」的能力。放牛人原本設計了最刁鑽的專業考題，企圖以「淨飯王子不曾放牛」的知識盲區否定一切智，卻在佛陀應答十一法時親眼見證：每一項放牛技術背後都同時藏著一條修道心法。<b>知色即知四大、知濟即觀機逗教、留乳即知量知足</b>——世俗諦的極致掌握與勝義諦的解脫導向從未分離。放牛人之所以心悅誠服，不是因為佛陀在另一個維度談空說有，而是因為佛陀在他們最熟悉的專業裡，走得比他們自己更深更遠。</p></div></div>
+<script id="wy-c2p17-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p17Btn"),BOX=document.getElementById("c2p17Box"),MODAL=document.getElementById("c2p17Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=16;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p17Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P17:END-->
 </body>
 </html>
