@@ -1220,63 +1220,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P9:BEGIN-->
-<style id="wy-c2p9-css">
-.c2p9-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p9-fabbox.show{display:block;}
-.c2p9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p9-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p9-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p9-modal.open{display:flex;}
-.c2p9-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p9-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p9-close:hover{background:#e3d5b8;}
-.c2p9-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p9-tbl th,.c2p9-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p9-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p9-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p9-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p9-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p9-fabbox{right:14px;}.c2p9-tbl{font-size:11.5px;}.c2p9-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p9-fabbox" id="c2p9Box"><button class="c2p9-btn" id="c2p9Btn" type="button" aria-label="開啟全景總表"><span class="c2p9-ic">&#9638;</span><span class="c2p9-ls"><span class="c2p9-l1">本品 &middot; 修伽陀・好去與好說</span><span class="c2p9-l2">好去好說一體兩面・體用不二</span></span></button></div><div class="c2p9-modal" id="c2p9Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p9-card"><button class="c2p9-close" id="c2p9Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第九品 修伽陀・好去與好說 · 全景總表</h3><p class="sub">卷二・第9品｜全五章｜好去自證好說教化・體用不二</p><table class="c2p9-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>導論與語源</td><td>修伽陀Sugata一詞雙義——好去（自證）與好說（教化）；梵文詞根√gam（去）與√gad（說）雙重借用，一名雙義非後人附會而源自原典</td><td>好去好說、一名雙義、詞根雙關</td></tr><tr><td>第二章</td><td>好去──自利圓滿</td><td>「好去」為向內深度潛沈非空間移動，於諸深三摩提與無量大智慧中去；以「佛一切智為大車，八正道行入涅槃」偈拆解載具路徑歸宿三要素</td><td>一切智為大車、八正道、涅槃非斷非常</td></tr><tr><td>第三章</td><td>好說──教化的原則</td><td>從沈默轉向語言即自證者化身教育者；兩大原則——諸法實相說（內容真確，證量決定說量）、不著法愛說（態度超然，月指之喻）</td><td>諸法實相說、不著法愛說、月指之喻</td></tr><tr><td>第四章</td><td>好說的實踐方法</td><td>觀弟子智慧力為診斷起點，方便神通智力三種干預手段，疾遲二種速度調適，處方案例A倫理基礎（布施戒）B終極目標（涅槃）C分析解構（五眾十二因緣四諦），總攝為應病與藥</td><td>觀弟子智慧力、方便神通智力、應病與藥</td></tr><tr><td>第五章</td><td>中觀綜合與結語</td><td>好去（體/空性）好說（用/假名）體用不二辯證；修伽陀異於偏好去之聲聞獨覺與偏好說之凡夫學者，二諦相即空有無礙即中道實踐代名詞</td><td>體用不二、空性與假名、中道實踐</td></tr></tbody></table><p class="c2p9-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p9-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p9Btn"),BOX=document.getElementById("c2p9Box"),MODAL=document.getElementById("c2p9Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=8;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p9Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P9:END-->
 
 <!--WY-C2P10:BEGIN-->
 <style id="wy-c2p10-css">
@@ -2382,5 +2325,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P8:END-->
+<!--WY-C2P9:BEGIN-->
+<style id="wy-c2p9-css">
+.c2p9-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p9-fabbox.show{display:block;}
+.c2p9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p9-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p9-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p9-modal.open{display:flex;}
+.c2p9-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p9-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p9-close:hover{background:#e3d5b8;}
+.c2p9-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p9-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p9-tbl th,.c2p9-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p9-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p9-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p9-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p9-tbl b{color:#8b2500;}
+.c2p9-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p9-note b{color:#8b2500;}
+@media(max-width:900px){.c2p9-fabbox{right:14px;}.c2p9-tbl{font-size:11.5px;}.c2p9-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p9-fabbox" id="c2p9Box"><button class="c2p9-btn" id="c2p9Btn" type="button" aria-label="開啟全景總表"><span class="c2p9-ic">▦</span><span class="c2p9-ls"><span class="c2p9-l1">本品 · 修伽陀釋論</span><span class="c2p9-l2">好去好說・自利利他雙圓滿</span></span></button></div><div class="c2p9-modal" id="c2p9Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p9-card"><button class="c2p9-close" id="c2p9Close" type="button" aria-label="關閉">×</button><h3>卷二·第九品 修伽陀釋論 · 全景總表</h3><p class="sub">卷二・第9品｜全五章｜好去自證圓滿・好說教化四重調適</p><table class="c2p9-tbl"><caption>一、好去自證圓滿（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>一名雙義</td><td>「修」秦言好，「伽陀」或言去或言說，一詞根雙路徑——Gata（已去，自證向度）與Gada（說出，教化向度）</td></tr><tr><td>好去的性質</td><td>「去」非空間移動而是心靈向內深度潛沈，於種種諸深三摩提、無量諸大智慧中去，定慧等持而非表層專注</td></tr><tr><td>大車偈的三要素</td><td>「佛一切智為大車，八正道行入涅槃」——載具（一切智）、路徑（八正道）、歸宿（涅槃），三者缺一車不能行</td></tr><tr><td>自利圓滿結構</td><td>載具（一切智）→路徑（八正道）→狀態（深三摩提）→終點（涅槃），四要素總攝為「好去」的完整證量</td></tr><tr><td>勿落斷滅</td><td>涅槃應以中觀立場理解，非空非有、非斷非常，既非徹底消失亦非另一個永恆存有</td></tr></tbody></table><table class="c2p9-tbl"><caption>二、好說教化的原則與方法（自利轉利他的具體展開）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩大原則</td><td>諸法實相說（內容真確性，忠於親證之實相）與不著法愛說（態度超然性，教法是渡河之筏非目的），因好去故能好說</td></tr><tr><td>診斷邏輯</td><td>觀弟子智慧力，「是人正使一切方便神通智力化之，亦無如之何」——好說非千篇一律的廣播而是客製化對談，亦承認度化有其限度</td></tr><tr><td>干預三手段</td><td>方便（靈活教學技巧）、神通（打破常規認知的特殊展現）、智力（洞察核心問題），三者並用目的只在轉化弟子生命狀態</td></tr><tr><td>速度變量</td><td>「是人可度是疾是遲」，疾者頓悟型快速突破、遲者漸修型需時間薰陶，好說不強求一致</td></tr><tr><td>三組處方案例</td><td>倫理基礎（布施戒）對治慳貪放逸、終極目標（涅槃）對根器成熟厭離者、分析解構（五眾十二因緣四諦）對理性分析型弟子</td></tr></tbody></table><table class="c2p9-tbl"><caption>三、體用不二與中觀綜合（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>體用辯證</td><td>好去為體（自證的智慧，內在充實）、好說為用（他受用的慈悲，外在展現），無體則無以為用，有用方顯其體</td></tr><tr><td>何以不僅是阿羅漢</td><td>聲聞獨覺偏好去未必好說（自證但非其教化本務），凡夫學者擅說卻缺好去（辯才無礙但無親證之基），修伽陀是兩者完美結合</td></tr><tr><td>空性與假名</td><td>好去對應空性（不落有），好說對應假名（不落空之沈寂），修伽陀是中道實踐的代名詞，暗示《中論》二諦相即空有無礙的核心</td></tr><tr><td>應病與藥</td><td>法無定法，好說不在辭藻華麗而在契機（matching the capacity），醫者應病予藥、說法者應機予法</td></tr><tr><td>核心結語</td><td>修伽陀是自利（好去）與利他（好說）的雙重圓滿，好說建立在對實相的證悟與對弟子根器的精準觀察之上</td></tr></tbody></table><p class="c2p9-note">本品僅釋一名號「修伽陀」，龍樹卻藉「去」與「說」的雙重訓詁，揭示自證與教化本非二事——「好去」是深潛入定慧的自利之體，「好說」是觀機逗教的利他之用，體用不二方成圓滿。診斷（觀智慧力）、干預（方便神通智力）、速度（疾遲）、處方（布施戒・涅槃・五眾因緣四諦）四重調適，展示了慈悲如何在精確的智慧中落地。<b>善逝，亦是善說</b>——自證的深度決定了教化的高度，這正是「修伽陀」一名所攝盡的自利利他雙重圓滿。</p></div></div>
+<script id="wy-c2p9-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p9Btn"),BOX=document.getElementById("c2p9Box"),MODAL=document.getElementById("c2p9Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=8;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p9Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P9:END-->
 </body>
 </html>
