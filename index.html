@@ -1223,63 +1223,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P12:BEGIN-->
-<style id="wy-c2p12-css">
-.c2p12-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p12-fabbox.show{display:block;}
-.c2p12-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p12-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p12-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p12-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p12-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p12-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p12-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p12-modal.open{display:flex;}
-.c2p12-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p12-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p12-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p12-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p12-close:hover{background:#e3d5b8;}
-.c2p12-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p12-tbl th,.c2p12-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p12-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p12-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p12-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p12-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p12-fabbox{right:14px;}.c2p12-tbl{font-size:11.5px;}.c2p12-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p12-fabbox" id="c2p12Box"><button class="c2p12-btn" id="c2p12Btn" type="button" aria-label="開啟全景總表"><span class="c2p12-ic">&#9638;</span><span class="c2p12-ls"><span class="c2p12-l1">本品 &middot; 阿耨多羅・無答之答</span><span class="c2p12-l2">無答＝結構上不可破・默擯如獅子吼</span></span></button></div><div class="c2p12-modal" id="c2p12Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p12-card"><button class="c2p12-close" id="c2p12Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十二品 阿耨多羅・無答之答 · 全景總表</h3><p class="sub">卷二・第12品｜全十章｜無答非不答・破而不立</p><table class="c2p12-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>文本原典與論述全景</td><td>原典「阿名無耨多羅名答，一切外道法可答可破非實非清淨故，佛法不可答不可破出一切語言道亦實清淨故，以是故名無答」；三問一答結構導讀</td><td>阿耨多羅、無答、三問一答</td></tr><tr><td>第二章</td><td>字源解構：阿與耨多羅</td><td>阿＝無（否定前綴），耨多羅在此明確訓為「答」而非通常的「上」，因本品處理的是能否被辯難駁倒的邏輯問題而非位階問題</td><td>阿=無、耨多羅=答、辯論語境</td></tr><tr><td>第三章</td><td>「答」的辯證意涵</td><td>答＝對應（針對問而發）＋對治（否定另一立場），凡可答者皆已預設對立面故已落二元，此為後續四章的主前提</td><td>答=對應對治、答必落二元</td></tr><tr><td>第四章</td><td>兩種體系的對立</td><td>外道法如方形有稜角有立場必有對立面，佛法如圓形無住無對立面；外道非貶義指心外求法凡有所立皆屬之，差異在論述結構是否有可破立場</td><td>方與圓之喻、外道非貶義</td></tr><tr><td>第五章</td><td>外道之可對治性</td><td>「可答可破，非實非清淨故」——歸因一非實（地基建於相對虛妄）歸因二非清淨（夾雜煩惱二元），兩歸因合成外道必然可破的邏輯鏈</td><td>非實非清淨、外道邏輯鏈</td></tr><tr><td>第六章</td><td>佛法之絕對性</td><td>「不可答不可破出一切語言道亦實清淨故」——不可答不可破非拒答乃無懈可擊，核心樞紐「出一切語言道」使二元對立結構解消，亦實亦清淨為根因</td><td>出一切語言道、亦實亦清淨</td></tr><tr><td>第七章</td><td>兩種路徑總結對照</td><td>本質（非實非清淨vs亦實亦清淨）媒介（落入語言道vs出語言道）結果（可答可破vs無答不可破）三層嚴格對稱對照表</td><td>本質媒介結果三層對照</td></tr><tr><td>第八章</td><td>回歸定義：無答</td><td>「以是故名無答」為根因與結果推出的唯一合理命名；嚴格區分無答（問題本身瓦解）與不答（人為選擇沉默仍在棋盤上），默擯如獅子吼震懾戲論</td><td>無答非不答、默擯如獅子吼</td></tr><tr><td>第九章</td><td>義理延伸：中觀與無上</td><td>中觀無所得無所破與本品無答結構同構；無答→無上推理——不可被破則無有能凌駕之位，無答與無上互為表裡同指一絕對所在</td><td>中觀無所得、無答即無上</td></tr><tr><td>第十章</td><td>結語：不可破之智</td><td>總攝全品——絕對不是最強立場而是根本不站在任何立場，不可破非因辯才無礙而是無處可破無以為對，如靜水深流容納一切支流回響</td><td>不可破之智、靜水深流</td></tr></tbody></table><p class="c2p12-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p12-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p12Btn"),BOX=document.getElementById("c2p12Box"),MODAL=document.getElementById("c2p12Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=11;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p12Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P12:END-->
 
 <!--WY-C2P13:BEGIN-->
 <style id="wy-c2p13-css">
@@ -2370,5 +2313,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P11:END-->
+<!--WY-C2P12:BEGIN-->
+<style id="wy-c2p12-css">
+.c2p12-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p12-fabbox.show{display:block;}
+.c2p12-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p12-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p12-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p12-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p12-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p12-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p12-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p12-modal.open{display:flex;}
+.c2p12-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p12-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p12-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p12-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p12-close:hover{background:#e3d5b8;}
+.c2p12-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p12-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p12-tbl th,.c2p12-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p12-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p12-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p12-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p12-tbl b{color:#8b2500;}
+.c2p12-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p12-note b{color:#8b2500;}
+@media(max-width:900px){.c2p12-fabbox{right:14px;}.c2p12-tbl{font-size:11.5px;}.c2p12-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p12-fabbox" id="c2p12Box"><button class="c2p12-btn" id="c2p12Btn" type="button" aria-label="開啟全景總表"><span class="c2p12-ic">▦</span><span class="c2p12-ls"><span class="c2p12-l1">本品 · 釋阿耨多羅二</span><span class="c2p12-l2">無答・可破與不可破的邏輯分野</span></span></button></div><div class="c2p12-modal" id="c2p12Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p12-card"><button class="c2p12-close" id="c2p12Close" type="button" aria-label="關閉">×</button><h3>卷二·第十二品 阿耨多羅釋論（二）· 全景總表</h3><p class="sub">卷二・第12品｜全十章｜阿名無耨多羅名答・外道可破佛法不可破</p><table class="c2p12-tbl"><caption>一、字源解構與答的辯證意涵（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>另一種拆字</td><td>「阿」名無，「耨多羅」名答——此處論主捨「上」取「答」的另一梵語意涵，要處理的不是位階問題而是「哪一家學說能承受徹底辯難而不被駁倒」的邏輯問題</td></tr><tr><td>答的雙重結構</td><td>答＝對應（必然針對某個問而發，問答相互依存）＋答＝對治（必然站在某立場否定另一立場），凡可答者皆已落入二元對立</td></tr><tr><td>兩種體系的分水嶺</td><td>外道法如方形（有稜有角、有立場、必有對立面），佛法如圓形（無稜無角、無住、無對立面）——非高下之別而是結構層級之別</td></tr><tr><td>外道邏輯鏈</td><td>非實（基礎坐落於相對虛妄）＋非清淨（混入煩惱二元雜質）→落入相對二元→可答可破，注定被反駁而非偶然失言</td></tr><tr><td>佛法邏輯鏈</td><td>亦實（直接契合諸法實相）＋亦清淨（遠離戲論無二元雜染）→出一切語言道→不可答不可破，兩條鏈結構完全對稱而方向相反</td></tr></tbody></table><table class="c2p12-tbl"><caption>二、無答與無上的義理匯通（雙鏈對照與延伸）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>本質媒介結果三層對照</td><td>外道非實非清淨／落入語言道／可答可破，佛法亦實亦清淨／出一切語言道／無答不可破，三層環環相扣缺一不可</td></tr><tr><td>出一切語言道</td><td>語言的本質是分別（說A即排除非A），佛法所指向的究竟義不落任何一邊，當論述從語言道收斂終於「出」語言時二元對立隨之解消</td></tr><tr><td>無答非不答</td><td>「不答」是站在對立棋盤上選擇不走棋，「無答」是問題本身已瓦解——如「默擯」外表不語內裡卻是整個問題已被釋解，如獅子吼震懾一切戲論</td></tr><tr><td>無答即無上的推理</td><td>因為不可被破（無答），所以沒有任何法可以凌駕其上——能凌駕的前提是至少能對它作出有效的答，若連有效的答都不可能，邏輯上就不存在高過它的位置</td></tr><tr><td>中觀無所得同構</td><td>中觀「無所得」與本品「亦實亦清淨、出一切語言道」結構完全同構，皆指向「不駐於對立框架任何一側」的智慧姿態</td></tr></tbody></table><table class="c2p12-tbl"><caption>三、不可破之智的總攝（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>絕對的真義</td><td>絕對不是最強的立場，而是根本不站在任何立場上；不可破不是因為辯才無礙，而是因為無處可破、無以為對</td></tr><tr><td>破而不立的精神</td><td>龍樹一系「破而不立」的辯證精神，不在宣稱佛法殊勝，而在展示一條結構性的推理鏈——從字源到體系對立到雙重歸因</td></tr><tr><td>舉重若輕的邏輯</td><td>一切外道彼此雖有相對高下，無一能達「無答」之位——無上不在塔尖，而在塔外，是與整個比較體系的性質差異</td></tr><tr><td>讀者的日常應用</td><td>面對任何主張的辯論，可自問「這是站在哪個立場上的答」，若一切言說終須落於二元，便知那仍是「可答」的世俗層次</td></tr><tr><td>靜水深流的譬喻</td><td>不可破之智不與任何支流爭勝，卻因無所住而容納一切支流的回響，這正是「無答之答」的終極意涵</td></tr></tbody></table><p class="c2p12-note">本品從「阿耨多羅」一詞的另一種拆解——「無答」——展開一場關於「可被反駁」與「不可被反駁」的邏輯剖析。外道之所以可破，不因立場錯誤，而因其學說「非實非清淨」，故必然落入語言的二元對立；佛法之所以不可破，不因辯才更勝一籌，而因其「亦實亦清淨」，故能「出一切語言道」，根本不站上那張可被攻擊的棋盤。無答非拒絕溝通的沉默，而是問題本身消融後的寂靜，如獅子吼震懾一切戲論。<b>無答，即是無上</b>——這不是同義反覆，而是同一個絕對之所在，從「辯證無懈可擊」與「地位無可超越」兩個角度給出的必然結論。</p></div></div>
+<script id="wy-c2p12-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p12Btn"),BOX=document.getElementById("c2p12Box"),MODAL=document.getElementById("c2p12Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=11;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p12Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P12:END-->
 </body>
 </html>
