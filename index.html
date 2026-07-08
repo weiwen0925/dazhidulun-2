@@ -1221,63 +1221,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P10:BEGIN-->
-<style id="wy-c2p10-css">
-.c2p10-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p10-fabbox.show{display:block;}
-.c2p10-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p10-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p10-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p10-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p10-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p10-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p10-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p10-modal.open{display:flex;}
-.c2p10-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p10-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p10-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p10-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p10-close:hover{background:#e3d5b8;}
-.c2p10-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p10-tbl th,.c2p10-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p10-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p10-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p10-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p10-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p10-fabbox{right:14px;}.c2p10-tbl{font-size:11.5px;}.c2p10-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p10-fabbox" id="c2p10Box"><button class="c2p10-btn" id="c2p10Btn" type="button" aria-label="開啟全景總表"><span class="c2p10-ic">&#9638;</span><span class="c2p10-ls"><span class="c2p10-l1">本品 &middot; 實相觀世間論</span><span class="c2p10-l2">知世間三階梯・如虛空清淨常不壞</span></span></button></div><div class="c2p10-modal" id="c2p10Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p10-card"><button class="c2p10-close" id="c2p10Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十品 實相觀世間論 · 全景總表</h3><p class="sub">卷二・第10品｜全八章｜路迦憊三段答語・如虛空</p><table class="c2p10-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>佛號釋義：路迦憊（Loka-vid）</td><td>「路迦」秦言世「憊」名知，是名知世間；佛十號第六號，承正遍知開啟度生事業，區分世俗知（知識累積）與般若之知（透徹洞見）</td><td>路迦憊、世間解、Loka-vid</td></tr><tr><td>第二章</td><td>原典解構：三段式認知的飛躍</td><td>論主答曰＋兩次復次三段答語非並列而是階梯——事理認知（廣度）→破凡外見（深度）→絕待圓融（超度），三段缺一不可否則落惡取空或折衷中道</td><td>三段式結構、事理破見絕待</td></tr><tr><td>第三章</td><td>第一層次・事理認知</td><td>知二種世間（眾生正報／非眾生器世間依報），知世間世間因世間滅出世間道即四聖諦因果操作系統，知世間因＝知緣起，未證空前老實承認因果</td><td>二種世間、四聖諦矩陣、知緣起</td></tr><tr><td>第四章</td><td>第二層次・破凡外見</td><td>佛知非世俗知（資源享樂）亦非外道知（常樂我淨），乃見無常苦無我；無常故苦（結構義非情緒義）苦故無我（可控性原則）雙邏輯鏈，UI與Code視角脫粘</td><td>無常苦無我、可控性原則、UI與Code</td></tr><tr><td>第五章</td><td>第三層次・絕待圓融</td><td>三組雙重否定（非有常非無常／非有邊非無邊／非去非不去）超越二元非折衷，如是相亦不著如虛空，虛空三屬性清淨常不壞無住皆遮詮非表詮</td><td>三組否定、如虛空、清淨常不壞無住</td></tr><tr><td>第六章</td><td>中觀統攝：二諦與八不中道</td><td>三層次收攝二諦金字塔（世俗諦分緣起義與無自性義兩層，勝義諦性空義），三組否定對應中論八不中道，世間定義三次昇華苦→緣起→畢竟空</td><td>二諦金字塔、八不中道、定義昇華</td></tr><tr><td>第七章</td><td>實修心法：三組工具</td><td>四諦導航GPS（苦本質為何執著因在哪如何出離）、快轉模擬（現在執著快轉未來實相鬆動執著）、心如虛空（做容器不做內容物），三工具對應三層次深度</td><td>四諦導航、快轉模擬、心如虛空</td></tr><tr><td>第八章</td><td>結論：真正的「世間解」</td><td>全景圖四欄對照收束；世間解非逃避而是透視——世俗諦明辨因果勝義諦安住虛空同時運作，不住生死不住涅槃，經文結語首尾咬合圓滿</td><td>全景圖、非逃避而是透視、不住生死不住涅槃</td></tr></tbody></table><p class="c2p10-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p10-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p10Btn"),BOX=document.getElementById("c2p10Box"),MODAL=document.getElementById("c2p10Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=9;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p10Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P10:END-->
 
 <!--WY-C2P11:BEGIN-->
 <style id="wy-c2p11-css">
@@ -2378,5 +2321,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P9:END-->
+<!--WY-C2P10:BEGIN-->
+<style id="wy-c2p10-css">
+.c2p10-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p10-fabbox.show{display:block;}
+.c2p10-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p10-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p10-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p10-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p10-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p10-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p10-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p10-modal.open{display:flex;}
+.c2p10-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p10-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p10-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p10-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p10-close:hover{background:#e3d5b8;}
+.c2p10-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p10-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p10-tbl th,.c2p10-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p10-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p10-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p10-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p10-tbl b{color:#8b2500;}
+.c2p10-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p10-note b{color:#8b2500;}
+@media(max-width:900px){.c2p10-fabbox{right:14px;}.c2p10-tbl{font-size:11.5px;}.c2p10-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p10-fabbox" id="c2p10Box"><button class="c2p10-btn" id="c2p10Btn" type="button" aria-label="開啟全景總表"><span class="c2p10-ic">▦</span><span class="c2p10-ls"><span class="c2p10-l1">本品 · 世間解釋論</span><span class="c2p10-l2">路迦憊・三層次認知階梯</span></span></button></div><div class="c2p10-modal" id="c2p10Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p10-card"><button class="c2p10-close" id="c2p10Close" type="button" aria-label="關閉">×</button><h3>卷二·第十品 世間解釋論 · 全景總表</h3><p class="sub">卷二・第10品｜全八章｜事理認知破凡外見絕待圓融・二諦八不</p><table class="c2p10-tbl"><caption>一、三段式認知的飛躍（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>字義</td><td>「路迦」秦言世，「憊」名知，是名知世間——更精準譯法是「徹見世間者」，「知」不是知識累積而是般若洞見</td></tr><tr><td>三段答語結構</td><td>答曰（事理認知，確立對象）→復次（破凡外見，認知的區隔）→復次（絕待圓融，超越二元），三次轉折對應由淺入深的認知階梯</td></tr><tr><td>第一段事理認知</td><td>知二種世間（眾生正報／非眾生依報）及如實相知世間世間因世間滅出世間道，正是四聖諦苦集滅道的因果操作系統</td></tr><tr><td>第二段破凡外見</td><td>「非如世俗知，亦非外道知；知世間無常故苦，苦故無我」，無常→苦→無我兩條邏輯鏈層層解構常樂我淨的錯覺</td></tr><tr><td>為何一定要走這條階梯</td><td>跳過事理直講畢竟空會落入惡取空，跳過破見直講中道會誤解為折衷，三段缺一不可</td></tr></tbody></table><table class="c2p10-tbl"><caption>二、絕待圓融與虛空喻（超越二元的最終跳躍）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三組否定</td><td>「非有常非無常，非有邊非無邊，非去非不去」——連對治用的「無常」也要放下，否則會執「無常」為新的實有</td></tr><tr><td>對治位與究竟位</td><td>凡夫執常故以無常對治，對治成功後連無常苦無我等對治語也要放下，中道不是折衷而是跳出觀點框架本身</td></tr><tr><td>如虛空三屬性</td><td>清淨（不被染污）、常不壞（不在生滅之列）、無住（不停在任何一處），皆是遮詮而非表詮</td></tr><tr><td>對應八不中道</td><td>非有常非無常對應不常不斷、非有邊非無邊對應不一不異、非去非不去對應不來不去不生不滅，三組否定是《中論》八不的壓縮版</td></tr><tr><td>UI與Code隱喻</td><td>看到現象（UI）同時看見支撐它的因緣條件（Code），看見Code之後UI仍在但重量消失，這就是「脫粘」</td></tr></tbody></table><table class="c2p10-tbl"><caption>三、二諦統攝與實修心法（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>二諦金字塔</td><td>世俗諦（因果無常無我，分兩層：老實認帳的緣起義與破執的無自性義）與勝義諦（畢竟空・八不中道）共同構成「知世間」</td></tr><tr><td>世間定義三次昇華</td><td>凡夫的世間是「苦」，破凡外的世間是「緣起」，佛的世間是「即緣起即性空」的不二實相</td></tr><tr><td>實修工具一二</td><td>四諦導航GPS（自問苦的本質、執著的因、如何出離）、快轉模擬（將現在的執著快轉到未來的實相影像）</td></tr><tr><td>實修工具三</td><td>心如虛空，做容器不做內容物——情緒升起時只問「這情緒在誰裡升起」，回到能知一邊</td></tr><tr><td>非逃避而是透視</td><td>真正的世間解是於世俗諦中明辨因果善惡、於勝義諦中安住清淨虛空，不住生死不住涅槃，二者同時運作</td></tr></tbody></table><p class="c2p10-note">本品以簡短的「知世間」訓詁，藏著一條完整的中觀認知階梯——先老實承認因果（事理認知），再以無常苦無我拆解常樂我淨的錯覺（破凡外見），最後連這些對治的概念本身也要放下（絕待圓融），如虛空般清淨常不壞而無住。三層次收攝於二諦，又與《中論》開卷八不中道桴鼓相應，證明龍樹思想首尾一致。<b>真正的「世間解」從不是逃避世間、另覓彼岸</b>，而是在世間之中，於世俗諦裡認真行善去惡，於勝義諦上安住如虛空之心——這正是「不住生死、不住涅槃」的中道全景。</p></div></div>
+<script id="wy-c2p10-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p10Btn"),BOX=document.getElementById("c2p10Box"),MODAL=document.getElementById("c2p10Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=9;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p10Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P10:END-->
 </body>
 </html>
