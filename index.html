@@ -1217,63 +1217,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P6:BEGIN-->
-<style id="wy-c2p6-css">
-.c2p6-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p6-fabbox.show{display:block;}
-.c2p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p6-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p6-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p6-modal.open{display:flex;}
-.c2p6-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p6-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p6-close:hover{background:#e3d5b8;}
-.c2p6-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p6-tbl th,.c2p6-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p6-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p6-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p6-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p6-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p6-fabbox{right:14px;}.c2p6-tbl{font-size:11.5px;}.c2p6-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p6-fabbox" id="c2p6Box"><button class="c2p6-btn" id="c2p6Btn" type="button" aria-label="開啟全景總表"><span class="c2p6-ic">&#9638;</span><span class="c2p6-ls"><span class="c2p6-l1">本品 &middot; 諸佛萬德名號義</span><span class="c2p6-l2">名以表德・不來不去・指月之指</span></span></button></div><div class="c2p6-modal" id="c2p6Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p6-card"><button class="c2p6-close" id="c2p6Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第六品 諸佛萬德名號義 · 全景總表</h3><p class="sub">卷二・第6品｜全十章｜多陀阿伽陀阿羅呵雙軸・指月之指</p><table class="c2p6-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>核心提問：名號的單一性與多樣性</td><td>「婆伽婆正有此一名？更有餘名？」佛功德無量故名號亦無量，此名取其大者以人多識故，立「名以表德」根本原理</td><td>名以表德、能詮所詮、方便善巧</td></tr><tr><td>第二章</td><td>無量邏輯：以人多識故</td><td>名號無量非佛自身繁衍，乃透過眾生認知濾鏡投射而成——本體（佛德）→顯化→認知濾鏡→投射→名號群集三段機制</td><td>認知濾鏡、佛德一味眾識多樣、二諦伏筆</td></tr><tr><td>第三章</td><td>本體論的雙重視角：多陀阿伽陀・阿羅呵</td><td>擇定二名為論述雙軸——多陀阿伽陀從真理因果切入（勝義諦），阿羅呵從斷證解脫切入（世俗諦），皆指向同一中道實相</td><td>多陀阿伽陀、阿羅呵、真俗二諦原型</td></tr><tr><td>第四章</td><td>多陀阿伽陀：真理契合・安隱之道・不來不去</td><td>三層遞進——如法相解如法相說（認知零失真）、諸佛安隱道來（存在論向量）、更不去後有中（輪迴終止），呼應中論觀去來品不來不去</td><td>零失真、安隱道、不來不去</td></tr><tr><td>第五章</td><td>阿羅呵・三重解構：殺賊・不生・應供</td><td>梵文一詞三種語源拆解對應斷德智德恩德，三義非並列而是因果鏈——因殺賊故不生，因不生故應供</td><td>三重解構、斷德證德恩德</td></tr><tr><td>第六章</td><td>殺賊義解：外破魔王軍・內滅煩惱賊</td><td>阿羅（賊）呵（殺）語源拆解，忍鎧精進甲戒馬定弓慧箭五法器對治六度，外在戰爭皆內在煩惱之投射，非對外征服乃對內淨化</td><td>殺賊、五法器、忍鎧精進甲</td></tr><tr><td>第七章</td><td>不生義解：無明糠脫・後世田中不生</td><td>阿（不）羅呵（生）語源拆解，以農業隱喻（佛心種子・後世田・無明糠）說明不生非斷滅而是脫糠使種子不再發芽，合中觀非常非斷</td><td>不生、無明糠脫、種子田喻</td></tr><tr><td>第八章</td><td>應供義解：諸結盡・智慧圓・受供養</td><td>諸結使除盡→得一切智慧→應受天地眾生供養三階因果，斷智圓滿自然成為福田，非佛需要供養而是眾生藉此種福</td><td>應供、三德圓滿、天地眾生供養</td></tr><tr><td>第九章</td><td>修證心法：誠重・戰鬥・拔根</td><td>前八章義理轉譯為四門心法——誠重心法（無誇大無掩飾）、戰鬥心法（武裝內心對治煩惱）、拔根心法（釜底抽薪脫無明糠）、淨化心法（成為福田）</td><td>誠重心法、戰鬥心法、拔根心法、釜底抽薪</td></tr><tr><td>第十章</td><td>中觀總攝與結論：二諦融通・指月之指</td><td>世俗諦（名號無量如來救度殺賊修行）與勝義諦（無名可名不來不去本自無生）交集即中道；諸佛名號皆是指月之指，忘指見月方知實相一味</td><td>二諦融通、中道實相、指月之指</td></tr></tbody></table><p class="c2p6-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p6-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p6Btn"),BOX=document.getElementById("c2p6Box"),MODAL=document.getElementById("c2p6Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=5;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p6Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P6:END-->
 
 <!--WY-C2P7:BEGIN-->
 <style id="wy-c2p7-css">
@@ -2394,5 +2337,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P5:END-->
+<!--WY-C2P6:BEGIN-->
+<style id="wy-c2p6-css">
+.c2p6-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p6-fabbox.show{display:block;}
+.c2p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p6-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p6-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p6-modal.open{display:flex;}
+.c2p6-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p6-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p6-close:hover{background:#e3d5b8;}
+.c2p6-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p6-tbl th,.c2p6-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p6-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p6-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p6-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p6-tbl b{color:#8b2500;}
+.c2p6-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p6-note b{color:#8b2500;}
+@media(max-width:900px){.c2p6-fabbox{right:14px;}.c2p6-tbl{font-size:11.5px;}.c2p6-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p6-fabbox" id="c2p6Box"><button class="c2p6-btn" id="c2p6Btn" type="button" aria-label="開啟全景總表"><span class="c2p6-ic">▦</span><span class="c2p6-ls"><span class="c2p6-l1">本品 · 如來應供二號釋義</span><span class="c2p6-l2">真理契合斷證解脫・指月之指</span></span></button></div><div class="c2p6-modal" id="c2p6Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p6-card"><button class="c2p6-close" id="c2p6Close" type="button" aria-label="關閉">×</button><h3>卷二·第六品 諸佛萬德名號義 · 全景總表</h3><p class="sub">卷二・第6品｜全十章｜多陀阿伽陀如來・阿羅呵應供・二諦融通</p><table class="c2p6-tbl"><caption>一、名號無量與雙重視角（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>名以表德</td><td>「婆伽婆正有此一名？更有餘名？」佛功德無量故名號亦無量，「以人多識故」取其大者，隱含二諦伏筆</td></tr><tr><td>無量邏輯</td><td>佛功德本體一味平等，經眾生認知濾鏡投射為多樣名號，如一輪明月映千江水，月無二體而水月千差</td></tr><tr><td>雙重視角選定</td><td>多陀阿伽陀（真理與因果，勝義諦側）與阿羅呵（斷證與解脫，世俗諦側）二名為代表，構成中觀真俗二諦的原型</td></tr><tr><td>多陀阿伽陀三層</td><td>如法相解如法相說（認識零失真）、諸佛安隱道來（存在論向量）、更不去後有中（輪迴終止），與《中論》「不來不去」遙相呼應</td></tr><tr><td>阿羅呵三重解構</td><td>殺賊（阿羅賊呵殺）、不生（阿不羅呵生）、應供（諸結盡受供養）——三義是因果連動的斷德證德恩德鏈</td></tr></tbody></table><table class="c2p6-tbl"><caption>二、殺賊不生應供的修證心法（阿羅呵三義的具體開展）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>殺賊義解</td><td>「佛以忍為鎧、精進為剛甲、持戒為大馬、禪定為良弓、智慧為好箭」，外破魔王軍內滅煩惱賊，戰場在心不在外</td></tr><tr><td>不生義解</td><td>佛心種子後世田中不生，無明糠脫故——種子雖在（非斷）永不發芽（非常），是中觀非常非斷的操作圖</td></tr><tr><td>應供義解</td><td>諸結使除盡→得一切智慧→應受天地眾生供養，斷德智德恩德三階遞進，「應」字非佛需要供養而是眾生種福之田</td></tr><tr><td>四門心法</td><td>誠重心法（如法相解說・無誇大無掩飾）、戰鬥心法（殺賊・部署忍進戒定慧）、拔根心法（不生・脫無明糠釜底抽薪）、淨化心法（應供・成為福田）</td></tr><tr><td>名號即指月</td><td>「諸佛名號皆是指月之指」，執指為月是以名為實，忘指見月方知名號無量而實相一味</td></tr></tbody></table><table class="c2p6-tbl"><caption>三、中觀二諦融通（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>二諦圖</td><td>世俗諦（名號無量、如來救度、殺賊修行）與勝義諦（無名可名、不來不去、本自無生）交集處即中道實相</td></tr><tr><td>體用不二</td><td>多陀阿伽陀為慈悲用（從真如來到眾生），阿羅呵為智慧體（斷證圓滿的結果），體用不二即是「覺」</td></tr><tr><td>中觀記憶法一</td><td>「如來」即是《中論》「不來不去」——世俗諦如諸佛安隱道來，勝義諦更不去後有中</td></tr><tr><td>中觀記憶法二</td><td>「阿羅呵不生」即是《中論》「不生不滅」——拔除無明因緣，行識名色等支分無從生起</td></tr><tr><td>回向偈</td><td>「名非名，相非相；若見諸相非相，即見如來」——研讀名號的目的不在多記幾個名字，而在借指望月</td></tr></tbody></table><p class="c2p6-note">本品從「婆伽婆是否只有一名」一問展開，卻在名號的無量與代表的擇定之間，鋪陳出一整套中觀二諦的原型——多陀阿伽陀指向真理如何「來」而不去，阿羅呵指向煩惱如何被「殺」而不生。二者一慈悲一智慧、一用一體，看似兩條路徑，實則同一中道實相的兩面。<b>名號本身只是「指月之指」</b>，讀者若能忘指見月，便知「如來」即是不來不去、「阿羅呵」即是不生不滅——一切名相的盡頭，皆歸於同一片清淨虛空。</p></div></div>
+<script id="wy-c2p6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p6Btn"),BOX=document.getElementById("c2p6Box"),MODAL=document.getElementById("c2p6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P6:END-->
 </body>
 </html>
