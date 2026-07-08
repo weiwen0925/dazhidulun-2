@@ -1214,63 +1214,6 @@ if(backTop) backTop.addEventListener('click', function(){
 </script>
 
 
-<!--WY-C2P3:BEGIN-->
-<style id="wy-c2p3-css">
-.c2p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p3-fabbox.show{display:block;}
-.c2p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p3-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p3-modal.open{display:flex;}
-.c2p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p3-close:hover{background:#e3d5b8;}
-.c2p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p3-tbl th,.c2p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p3-fabbox{right:14px;}.c2p3-tbl{font-size:11.5px;}.c2p3-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p3-fabbox" id="c2p3Box"><button class="c2p3-btn" id="c2p3Btn" type="button" aria-label="開啟全景總表"><span class="c2p3-ic">&#9638;</span><span class="c2p3-ls"><span class="c2p3-l1">本品 &middot; 阿毘曇的源流與中觀邏輯</span><span class="c2p3-l2">分別一切法・精確掌握但不執著</span></span></button></div><div class="c2p3-modal" id="c2p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p3-card"><button class="c2p3-close" id="c2p3Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第三品 阿毘曇的源流與中觀邏輯 · 全景總表</h3><p class="sub">卷二・第3品｜全十七章｜源流體系案例心法四進路統合</p><table class="c2p3-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>大哉問</td><td>若佛語已圓滿何需論典？龍樹以虛擬問答揭示論典之緣起性——非從天降亦非多餘，乃眾生根器與歷史條件共成之因緣所生法</td><td>論藏正當性、因緣所生法</td></tr><tr><td>第二章</td><td>從一味到殊途</td><td>佛在世法無違錯→滅度初集亦如佛在→後百年阿輸迦王時諸師論議異，三階段歷史節奏勾勒詮釋分化曲線</td><td>別部名字、部派佛教萌芽、詮釋框架分化</td></tr><tr><td>第三章</td><td>迦旃延造《發智經》</td><td>婆羅門出身智慧利根之迦旃延盡讀三藏、欲解佛語而造《發智經八犍度》，奠定「廣解佛語」為造論正當性底線</td><td>發智經、八犍度、身論足論、廣解佛語</td></tr><tr><td>第四章</td><td>歷史演變的緣起觀</td><td>以緣（根器漸劣）因（諸師論議異）果（別部造論）詮釋論典史，根器階梯下降＝文本繁複之因，論典本身亦是緣起無自性</td><td>緣因果、根器階梯下降、鞞婆娑</td></tr><tr><td>第五章</td><td>多元作者觀：六分阿毘曇</td><td>目犍連婆須蜜菩薩罽賓羅漢諸論議師乃至異說舍利弗阿毘曇，示現論典形成之多元性，論藏為跨羅漢菩薩凡夫之開放傳統</td><td>六分阿毘曇、舍利弗阿毘曇、開放性</td></tr><tr><td>第六章</td><td>體裁辨析：阿毘曇 vs. 蜫勒</td><td>阿毘曇矩陣式分別（演繹）與蜫勒類比式歸納（歸納）二體裁對照，龍樹辨明蜫勒非阿毘曇但不貶抑，方法論多元並存</td><td>蜫勒、矩陣式分析、類比式歸納、正統論藏</td></tr><tr><td>第七章</td><td>論藏的量化範疇</td><td>阿毘曇身及義三十二萬言、六分阿毘曇三十六萬言、蜫勒三十二萬言，規模相近共通核心皆為「廣解佛語」</td><td>言數量化、廣解佛語為共同核心</td></tr><tr><td>第八章</td><td>阿毘曇的定義・法相分別</td><td>「佛經＋多維度矩陣＝阿毘曇」核心公式，以五戒八問（有色可見有對有漏有為有報善有記）示範「分別一切法」方法論</td><td>分別一切法、多維度矩陣、五戒八問</td></tr><tr><td>第九章</td><td>案例一：五戒的物理與倫理分析</td><td>五戒置入有色無色可見不可見有對無對有漏無漏有為有報善有記八維度矩陣，模糊持戒轉化為可驗證精確結構</td><td>八維度矩陣、無表色、道共戒</td></tr><tr><td>第十章</td><td>案例二：七使與斷惑</td><td>欲染瞋恚有愛憍慢無明見疑七使，以界繫（三界）斷法（見苦集滅道斷／思惟斷）範圍（遍使不遍使）三軸交叉成煩惱診斷圖</td><td>七使、隨眠、界繫斷法範圍三軸</td></tr><tr><td>第十一章</td><td>案例三：十智的屬性矩陣</td><td>世智法智比智他心智苦集滅道盡無生十智，以有漏無漏有為無為緣有漏無漏緣有為無為界緣五維度精準定位修證座標</td><td>十智、法智比智、盡智無生智、解脫道內在座標系</td></tr><tr><td>第十二章</td><td>修證與得失・動態分析</td><td>無礙道（斷惑剎那）解脫道（證知剎那）二道之別；四果得時同步計算得新智失舊智，證果非籠統事件而是精確心所變動</td><td>無礙道解脫道、四果得失、反證防偽</td></tr><tr><td>第十三章</td><td>心法一：微細觀照</td><td>由粗入細覺察力將「我在生氣」還原為「欲界繫瞋恚使修道所斷」等精確法相描述，把我執徹底分解到無法立足</td><td>微細觀照、我執分解、由粗入細</td></tr><tr><td>第十四章</td><td>心法二：應機施教的大悲</td><td>「為後人不能盡解故作鞞婆娑」——佛經如飛翔利根即懂，論典如階梯為鈍根而設，繁複不是缺陷而是慈悲援手</td><td>應機施教、佛經如飛翔論典如階梯、大悲方便</td></tr><tr><td>第十五章</td><td>心法三：依法不依人</td><td>目犍連舍利弗迦旃延等作者群龐雜，判準只有一條——是否廣解佛語，非關作者身分，揭示真理之開放性</td><td>依法不依人、四依、真理開放性</td></tr><tr><td>第十六章</td><td>二諦融通：世俗諦的顯微鏡</td><td>阿毘曇為世俗諦最強顯微鏡（精確掌握法相），般若為勝義諦（照見性空），「精確掌握但不執著」為中觀行者正道</td><td>二諦圖、精確掌握但不執著、不廢世俗諦而顯勝義諦</td></tr><tr><td>第十七章</td><td>邏輯總攝與結語</td><td>歷史→定義→方法→統合四階段流程總攝全品，「阿毘曇非從天降，乃因緣所生法」作結，示範如何正確使用一切論典</td><td>四階段總攝、阿毘曇非從天降</td></tr></tbody></table><p class="c2p3-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p3-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p3Btn"),BOX=document.getElementById("c2p3Box"),MODAL=document.getElementById("c2p3Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=2;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p3Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P3:END-->
 
 <!--WY-C2P4:BEGIN-->
 <style id="wy-c2p4-css">
@@ -2406,5 +2349,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P2:END-->
+<!--WY-C2P3:BEGIN-->
+<style id="wy-c2p3-css">
+.c2p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p3-fabbox.show{display:block;}
+.c2p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p3-modal.open{display:flex;}
+.c2p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p3-close:hover{background:#e3d5b8;}
+.c2p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p3-tbl th,.c2p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p3-tbl b{color:#8b2500;}
+.c2p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p3-note b{color:#8b2500;}
+@media(max-width:900px){.c2p3-fabbox{right:14px;}.c2p3-tbl{font-size:11.5px;}.c2p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p3-fabbox" id="c2p3Box"><button class="c2p3-btn" id="c2p3Btn" type="button" aria-label="開啟全景總表"><span class="c2p3-ic">▦</span><span class="c2p3-ls"><span class="c2p3-l1">本品 · 論藏因緣論</span><span class="c2p3-l2">阿毘曇非從天降・因緣所生法</span></span></button></div><div class="c2p3-modal" id="c2p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p3-card"><button class="c2p3-close" id="c2p3Close" type="button" aria-label="關閉">×</button><h3>卷二·第三品 論藏因緣論 · 全景總表</h3><p class="sub">卷二・第3品｜全十七章｜源流體系案例心法統合五層</p><table class="c2p3-tbl"><caption>一、論藏源流與多元作者（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>大哉問</td><td>若佛語已圓滿，何需繁複論典？龍樹以此問揭示論典的「緣起性」——既非從天而降，也非多餘之物</td></tr><tr><td>三階段歷史</td><td>佛在世時法無違錯→佛滅度後初集法時亦如佛在→後百年阿輸迦王時諸師論議異故有別部名字，詮釋分化是不可逆的自然歷程</td></tr><tr><td>迦旃延與發智經</td><td>婆羅門道人智慧利根盡讀三藏內外經書，「欲解佛語故」作《發智經八犍度》——正當性底線在於「解佛語」而非「造新」</td></tr><tr><td>根器階梯下降</td><td>佛語（利根能解）→發智經（廣解佛語）→鞞婆娑（為後人不能盡解故作）——每一代論典皆因前代讀者不能盡解而生</td></tr><tr><td>多元作者觀</td><td>六分阿毘曇分屬目犍連、婆須蜜菩薩、罽賓羅漢及諸論議師；另有異說謂舍利弗阿毘曇——論藏是開放的智慧傳統，非封閉的聖人之書</td></tr></tbody></table><table class="c2p3-tbl"><caption>二、體裁方法與三大案例（分別一切法的具體演示）</caption><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody><tr><td>阿毘曇vs蜫勒</td><td>阿毘曇矩陣式嚴格分別（正統論藏），蜫勒（篋藏）廣比諸事以類相從（南天竺流傳）——演繹式與歸納式兩種知識範式並存</td></tr><tr><td>定義公式</td><td>「佛經＋多維度矩陣＝阿毘曇」，以五戒為例八問（有色無色、可見不可見、有對無對、有漏無漏、有為無為、有報無報、善不善、有記無記）示範法相分別</td></tr><tr><td>案例一五戒</td><td>八維度矩陣把「不殺不盜不邪婬不妄語不飲酒」解析到極致，模糊的「五戒是善法」轉為可驗證的精確結構</td></tr><tr><td>案例二七使</td><td>欲染瞋恚有愛憍慢無明見疑七使，以界繫、斷法、範圍三軸交叉，把心識病理學寫成結構化診斷表，診斷精確則對治到位</td></tr><tr><td>案例三十智</td><td>從世智到無生智，五維度（有漏無漏、有為無為、緣有漏無漏、緣有為無為、界緣）交叉，十智即是解脫道的內在座標系</td></tr></tbody></table><table class="c2p3-tbl"><caption>三、心法統合與二諦融通（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>微細觀照</td><td>由粗（「我在生氣」）入細（「欲界繫思惟斷之瞋恚使」）的覺察力，把「我」分解到無法立足之處，藉精確分析破我執</td></tr><tr><td>應機大悲</td><td>「為後人不能盡解故」造論——論典的繁複不是缺陷而是慈悲，論師伸出的每一句注釋都是接住不能飛翔靈魂的階梯</td></tr><tr><td>依法不依人</td><td>舍利弗目犍連迦旃延婆須蜜羅漢諸論議師身份龐雜，唯一判準是「皆是廣解佛語故」——真理開放，不被任何聖者或學派壟斷</td></tr><tr><td>二諦融通</td><td>阿毘曇是「世俗諦的最強顯微鏡」，精確掌握法相卻不執著其自性；般若性空是勝義諦本懷，兩者不可偏廢</td></tr><tr><td>邏輯總攝</td><td>歷史（消解懷疑）→定義（建立共識）→案例（建立信心）→心法（避免執著），阿毘曇非從天降，乃因緣所生法</td></tr></tbody></table><p class="c2p3-note">本品以一句虛擬設問「論藏從何而來」，牽出一整部部派佛教論書史，卻始終扣緊中觀的核心關懷——論典本身也是緣起法，既非天啟亦非冗贅，而是眾生根器與歷史條件共同成就的產物。從迦旃延到六分阿毘曇、從舍利弗異說到南天竺蜫勒，龍樹刻意呈現論藏源流的多元與開放，正是為了托出「<b>依法不依人</b>」的最終判準：不論作者是誰、體裁為何，只問是否「廣解佛語」。阿毘曇教人以矩陣精確分別一切法，般若則教人照見這分別本身亦性空——精確掌握而不執著，正是中觀行者穿梭於二諦之間的中道智慧。</p></div></div>
+<script id="wy-c2p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p3Btn"),BOX=document.getElementById("c2p3Box"),MODAL=document.getElementById("c2p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P3:END-->
 </body>
 </html>
