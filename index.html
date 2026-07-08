@@ -1229,63 +1229,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P18:BEGIN-->
-<style id="wy-c2p18-css">
-.c2p18-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p18-fabbox.show{display:block;}
-.c2p18-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p18-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p18-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p18-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p18-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p18-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p18-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p18-modal.open{display:flex;}
-.c2p18-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p18-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p18-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p18-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p18-close:hover{background:#e3d5b8;}
-.c2p18-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p18-tbl th,.c2p18-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p18-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p18-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p18-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p18-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p18-fabbox{right:14px;}.c2p18-tbl{font-size:11.5px;}.c2p18-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p18-fabbox" id="c2p18Box"><button class="c2p18-btn" id="c2p18Btn" type="button" aria-label="開啟全景總表"><span class="c2p18-ic">&#9638;</span><span class="c2p18-ls"><span class="c2p18-l1">本品 &middot; 智者之辯</span><span class="c2p18-l2">訴諸無知容器百科三謬誤・破即是立</span></span></button></div><div class="c2p18-modal" id="c2p18Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p18-card"><button class="c2p18-close" id="c2p18Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十八品 智者之辯 · 全景總表</h3><p class="sub">卷二・第18品｜全六章｜三辯三謬誤・緣起性空二諦</p><table class="c2p18-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>序論：智者之辯的整體框架</td><td>佛一切智人號招致三問——存在維度（未見故無）容量維度（境多智少）範疇維度（何以不說雜學），論辯三層結構邏輯辯證核心心法中觀記憶鉤，方法論為應成派破即立立在破中</td><td>三問三層結構、應成派方法論</td></tr><tr><td>第二章</td><td>第一辯：訴諸無知謬誤</td><td>「無見一切智人者」混淆未見與不存在，論主分不見二種（事實有因緣覆vs實無無故不見）可見性矩陣拆穿，因緣覆診斷未得四信心著惡邪，扣緣起記憶鉤</td><td>訴諸無知、可見性矩陣、緣起</td></tr><tr><td>第三章</td><td>第二辯：容器謬誤</td><td>「諸法無量一人怎能盡知」預設心智為有限容器，論主以函大蓋亦大函小蓋亦小翻轉境智同等，智是映照非儲存，唯空能容無限，扣性空記憶鉤</td><td>函蓋邏輯、境智同等、性空</td></tr><tr><td>第四章</td><td>第三辯：百科全書謬誤</td><td>「何以不說藥方星宿算經」誤把全知當百科全書，論主答用故說不用故不說有人問故說；解脫篩選器過濾宇宙萬法為佛法，三法（有為無為不可說）攝一切，扣二諦記憶鉤</td><td>解脫篩選器、Push vs Pull、三法攝一切、二諦</td></tr><tr><td>第五章</td><td>總結：三次思維轉向</td><td>存在（緣起）→容量（性空）→範疇（二諦）三次思維轉向嚴格遞進；三條專家思維工具檢查盲點擴展維度過濾雜訊，可遷移至任何專業領域</td><td>三次思維轉向、專家思維模型、看見</td></tr><tr><td>第六章</td><td>附錄：原文選讀與名相釋義</td><td>三段問答原典全錄對讀，關鍵名相中英釋義表（一切智緣起性空四信二諦三法訴諸無知容器謬誤百科全書謬誤應成派）</td><td>原典全錄、Glossary</td></tr></tbody></table><p class="c2p18-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p18-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p18Btn"),BOX=document.getElementById("c2p18Box"),MODAL=document.getElementById("c2p18Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=17;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p18Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P18:END-->
 
 <!--WY-C2P19:BEGIN-->
 <style id="wy-c2p19-css">
@@ -2346,5 +2289,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P17:END-->
+<!--WY-C2P18:BEGIN-->
+<style id="wy-c2p18-css">
+.c2p18-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p18-fabbox.show{display:block;}
+.c2p18-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p18-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p18-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p18-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p18-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p18-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p18-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p18-modal.open{display:flex;}
+.c2p18-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p18-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p18-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p18-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p18-close:hover{background:#e3d5b8;}
+.c2p18-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p18-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p18-tbl th,.c2p18-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p18-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p18-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p18-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p18-tbl b{color:#8b2500;}
+.c2p18-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p18-note b{color:#8b2500;}
+@media(max-width:900px){.c2p18-fabbox{right:14px;}.c2p18-tbl{font-size:11.5px;}.c2p18-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p18-fabbox" id="c2p18Box"><button class="c2p18-btn" id="c2p18Btn" type="button" aria-label="開啟全景總表"><span class="c2p18-ic">▦</span><span class="c2p18-ls"><span class="c2p18-l1">本品 · 智者之辯釋論</span><span class="c2p18-l2">三重質疑・訴諸無知容器百科全書三謬誤</span></span></button></div><div class="c2p18-modal" id="c2p18Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p18-card"><button class="c2p18-close" id="c2p18Close" type="button" aria-label="關閉">×</button><h3>卷二·第十八品 智者之辯釋論 · 全景總表</h3><p class="sub">卷二・第18品｜全六章｜存在容量範疇三辯・二諦記憶錨點</p><table class="c2p18-tbl"><caption>一、三辯的整體框架（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三重質疑</td><td>我沒見過所以不存在（存在維度）、諸法無量一人怎能盡知（容量維度）、為何不講藥方星宿算經（範疇維度），三問逐次退守</td></tr><tr><td>應成方法論</td><td>中觀不立自宗，而是找出對方命題隱含的不自覺前提，給出反例使前提不能成立，再引出對應中觀範疇——破即是立</td></tr><tr><td>第一辯訴諸無知</td><td>「不見有二種」——事實有以因緣覆故不見（如雪山斤兩恆河沙數）、實無無故不見（如第二頭第三手），一切智人屬於前者而非後者</td></tr><tr><td>因緣覆診斷</td><td>問題不在發射端而在接收端——未得四信、心著惡邪，是遮蔽觀察者視野的兩條具體因緣</td></tr><tr><td>第一記憶鉤緣起</td><td>看見＝對象＋主體＋條件，一切智人是對象常數、觀察者是主體常數，缺失的變數是清淨信心——看不見不等於不存在</td></tr></tbody></table><table class="c2p18-tbl"><caption>二、容器謬誤與百科全書謬誤（第二第三辯的核心開展）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>容器謬誤</td><td>「諸法無量無邊，一人怎能盡知」預設心智是有限物理容器，佛陀翻轉為「如函大蓋亦大，函小蓋亦小」，境智同等不可能一面無量一面有限</td></tr><tr><td>第二記憶鉤性空</td><td>蓋為何可以無限——因為沒有自性，若心是實體的就會裝滿，因為是空的所以能容納無限，唯有空方能容無限</td></tr><tr><td>百科全書謬誤</td><td>「為何不說藥方星宿算經」預設全知必須涵蓋所有專業條目，佛陀給出「用故說不用故不說，有人問故說不問故不說」的解脫篩選器</td></tr><tr><td>三法攝一切</td><td>有為法（醫術天文算術等）、無為法（涅槃）、不可說法（究竟實相），此已攝一切法——掌握操作系統就掌握了所有應用程式</td></tr><tr><td>第三記憶鉤二諦</td><td>世俗諦容納一切實用知識，勝義諦指向空性涅槃，佛陀專注勝義諦但含攝世俗諦，是解脫的專家而非雜學的百科全書</td></tr></tbody></table><table class="c2p18-tbl"><caption>三、三次思維轉向與專家思維模型（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三次思維轉向</td><td>存在（眼見為憑→緣起法則）→容量（有限容器→性空無限）→範疇（雜學百科→實用取捨），嚴格邏輯遞進缺一不可</td></tr><tr><td>專家思維模型一</td><td>檢查盲點——是數據不存在，還是我的因緣遮蔽了看見？對應第一辯的因緣覆</td></tr><tr><td>專家思維模型二</td><td>擴展維度——不要用有限的模型去套用無限的問題，對應第二辯的函蓋理論</td></tr><tr><td>專家思維模型三</td><td>過濾雜訊——這條資訊是否解決核心目標，若否大膽捨棄，對應第三辯的解脫篩選器</td></tr><tr><td>看見即是解脫</td><td>看見不是視覺而是條件齊備時真理自然顯現的那個瞬間，真理一直都在，是你準備好看見了嗎</td></tr></tbody></table><p class="c2p18-note">本品逐條拆解外道對「一切智」的三重質疑——存在、容量、範疇——每一問都帶著常識直覺的外衣，實則各藏一種認知謬誤。訴諸無知謬誤混淆了「不可見而實有」與「不可見而實無」；容器謬誤誤把智慧當成有限的物理容器；百科全書謬誤誤把全知等同於窮盡一切專業條目。龍樹的回應不是宣說權威，而是<b>應成式地拆穿每個問題背後站不住腳的前提</b>，並分別扣回緣起、性空、二諦三個中觀根本範疇。三辯讀完，讀者帶走的不只是佛學知識，更是三條可遷移到任何專業領域的思維工具：檢查盲點、擴展維度、過濾雜訊。</p></div></div>
+<script id="wy-c2p18-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p18Btn"),BOX=document.getElementById("c2p18Box"),MODAL=document.getElementById("c2p18Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=17;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p18Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P18:END-->
 </body>
 </html>
