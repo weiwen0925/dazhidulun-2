@@ -1219,63 +1219,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P8:BEGIN-->
-<style id="wy-c2p8-css">
-.c2p8-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p8-fabbox.show{display:block;}
-.c2p8-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p8-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p8-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p8-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p8-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p8-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p8-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p8-modal.open{display:flex;}
-.c2p8-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p8-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p8-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p8-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p8-close:hover{background:#e3d5b8;}
-.c2p8-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p8-tbl th,.c2p8-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p8-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p8-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p8-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p8-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p8-fabbox{right:14px;}.c2p8-tbl{font-size:11.5px;}.c2p8-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p8-fabbox" id="c2p8Box"><button class="c2p8-btn" id="c2p8Btn" type="button" aria-label="開啟全景總表"><span class="c2p8-ic">&#9638;</span><span class="c2p8-ls"><span class="c2p8-l1">本品 &middot; 明行具足</span><span class="c2p8-l2">通=知其然明=知其所以然・畢竟空悉滿足</span></span></button></div><div class="c2p8-modal" id="c2p8Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p8-card"><button class="c2p8-close" id="c2p8Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第八品 明行具足 · 全景總表</h3><p class="sub">卷二・第8品｜全九章｜通與明・八萬劫極限・畢竟空</p><table class="c2p8-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>原典：大智度論「明行具足」段</td><td>佛十號第五號vidyā-caraṇa-saṃpanna，三段問答——通與明之異、阿羅漢與佛之異、云何不滿云何滿，末句「行名身口業唯佛具足餘皆有失」</td><td>明行具足、三明、身口業</td></tr><tr><td>第二章</td><td>覺悟的坐標系</td><td>以感知廣度（時空覆蓋）與因緣深度（現象vs機制）兩軸定位外道（有神通無明）阿羅漢（得三明不滿足）佛（明行具足無量深度）三層</td><td>感知廣度、因緣深度、三層坐標</td></tr><tr><td>第三章</td><td>通與明的核心差異</td><td>三組原典對照（直知宿命/知因緣行業等）以蓮花與蓮根為喻——通＝看見蓮花現象，明＝看透蓮根機制，即知其然vs知其所以然</td><td>通與明、蓮花蓮根喻、Knowing That vs Why</td></tr><tr><td>第四章</td><td>三明的邏輯解構</td><td>宿命明（因果網絡非僅歷史點）天眼明（際會不失公式化）漏盡明（絕對確信更不復生非暫時壓制）三軸對應過去未來現在</td><td>宿命明、天眼明、漏盡明、際會不失</td></tr><tr><td>第五章</td><td>中觀記憶法</td><td>以緣起（看透網而非只見果）與二諦（明證入勝義諦知無生）為兩大錨點，提煉重慧不重通／從現象到根源／決定不疑三大心法</td><td>緣起、二諦、三大修行心法</td></tr><tr><td>第六章</td><td>同得三明，云何不滿？</td><td>量變邏輯（阿羅漢宿命天眼明止於八萬劫如戰爭迷霧）與質變邏輯（佛一念生住滅悉覺了如萬幀攝影機，阿羅漢時少疾故不覺見諦道十五心）雙重極限</td><td>八萬劫、一念生住滅、見諦道十五心</td></tr><tr><td>第七章</td><td>畢竟空：悉滿足的根本原因</td><td>阿羅漢空證有餘（法執習氣殘留如杯底沉澱）佛畢竟空（全然透徹），空性同時破除時空界限（破八萬劫）與認知遮蔽（破時少疾故）兩極限</td><td>有餘vs畢竟空、破界限破遮蔽</td></tr><tr><td>第八章</td><td>行：拼圖的最後一塊</td><td>「行名身口業唯佛具足餘皆有失」，必陵伽婆蹉小婢公案示現內證雖圓外顯習氣仍漏，明（勝義諦）行（世俗諦）合一即真俗不二</td><td>明行公式、必陵伽婆蹉小婢、真俗不二</td></tr><tr><td>第九章</td><td>結語：究竟的圓滿與三大應用</td><td>三大應用——知其所以然（不停在看到了）、莫以少為足（勿把認知極限當真理盡頭，八萬劫陷阱）、明行合一（無行之明即空談玄理）</td><td>知其所以然、莫以少為足、明行合一</td></tr></tbody></table><p class="c2p8-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p8-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p8Btn"),BOX=document.getElementById("c2p8Box"),MODAL=document.getElementById("c2p8Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=7;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p8Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P8:END-->
 
 <!--WY-C2P9:BEGIN-->
 <style id="wy-c2p9-css">
@@ -2386,5 +2329,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P7:END-->
+<!--WY-C2P8:BEGIN-->
+<style id="wy-c2p8-css">
+.c2p8-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p8-fabbox.show{display:block;}
+.c2p8-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p8-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p8-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p8-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p8-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p8-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p8-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p8-modal.open{display:flex;}
+.c2p8-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p8-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p8-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p8-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p8-close:hover{background:#e3d5b8;}
+.c2p8-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p8-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p8-tbl th,.c2p8-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p8-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p8-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p8-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p8-tbl b{color:#8b2500;}
+.c2p8-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p8-note b{color:#8b2500;}
+@media(max-width:900px){.c2p8-fabbox{right:14px;}.c2p8-tbl{font-size:11.5px;}.c2p8-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p8-fabbox" id="c2p8Box"><button class="c2p8-btn" id="c2p8Btn" type="button" aria-label="開啟全景總表"><span class="c2p8-ic">▦</span><span class="c2p8-ls"><span class="c2p8-l1">本品 · 明行具足釋論</span><span class="c2p8-l2">通與明・畢竟空・真俗不二</span></span></button></div><div class="c2p8-modal" id="c2p8Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p8-card"><button class="c2p8-close" id="c2p8Close" type="button" aria-label="關閉">×</button><h3>卷二·第八品 明行具足釋論 · 全景總表</h3><p class="sub">卷二・第8品｜全九章｜通與明・八萬劫極限・畢竟空・小婢公案</p><table class="c2p8-tbl"><caption>一、通與明的認識論分判（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三明定義</td><td>宿命天眼漏盡三明，大阿羅漢大辟支佛所得；「彼雖得三明，明不滿足，佛悉滿足，是為異」</td></tr><tr><td>通明對照</td><td>直知過去宿命事是名通、知過去因緣行業是名明；直知死此生彼是名通、知行因緣際會不失是名明；直盡結使不知更生不生是名通、知漏盡更不復生是名明</td></tr><tr><td>通明分判法則</td><td>通＝知其然（Knowing That）、明＝知其所以然（Knowing Why），如蓮花與蓮根，看見表象與看透根系養分季節光照</td></tr><tr><td>覺悟坐標系</td><td>橫軸感知廣度（時空能覆蓋多遠）、縱軸因緣深度（現象觀察vs機制洞察），外道有神通無明、阿羅漢得三明不滿足、佛明行具足</td></tr><tr><td>中觀記憶法</td><td>緣起（只看果vs看透網）與二諦（執著假相vs證入空性）兩大錨點，提煉出重慧不重通、從現象到根源、決定不疑三心法</td></tr></tbody></table><table class="c2p8-tbl"><caption>二、云何不滿與畢竟空（量變質變雙邏輯的中觀解答）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>量變邏輯</td><td>阿羅漢宿命天眼智知一世乃至八萬劫，過是以往不能復知——視野有硬性上限如戰爭迷霧，佛則無量遍知</td></tr><tr><td>質變邏輯</td><td>佛一念中生住滅時諸結使分悉覺了，聲聞辟支佛所不覺知因「時少疾故」——如24幀與萬幀攝影機，阿羅漢錯過見諦道十五心的微觀細節</td></tr><tr><td>有餘與畢竟空</td><td>阿羅漢空證悟有餘（法執習氣仍在底層），佛畢竟空（人我法執與微細習氣俱斷），如杯中澄水vs杯水皆空</td></tr><tr><td>畢竟空的雙重破除</td><td>空即無界限故破八萬劫之牆，空即無遮蔽（無能觀察的我之負擔）故破時少疾故的解析度限制</td></tr><tr><td>行的公式</td><td>「行名身口業，唯佛身口業具足，餘皆有失」——內證的明必須外顯為無一失誤的身口業，方稱具足</td></tr></tbody></table><table class="c2p8-tbl"><caption>三、小婢公案與明行合一（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>必陵伽婆蹉公案</td><td>過恆河彈指喚河神「小婢住莫流」，佛判其「口言而已心無憍也」——內證已圓但身口業層仍有五百世婆羅門慣性殘留</td></tr><tr><td>真俗不二</td><td>明（內證智慧）為勝義諦，行（外顯身口業）為世俗諦，明行合一即內在智慧自然發顯為無一失誤的外在行為</td></tr><tr><td>完整邏輯地圖</td><td>凡夫外道（現象）→阿羅漢（三明・因緣解構但有殘餘）→佛（明行具足・無量廣度＋微觀解析度＋身口業圓滿）</td></tr><tr><td>三大應用</td><td>莫停在知其然（追問因緣網絡）、莫以少為足（八萬劫陷阱・永遠假設還有未照破之處）、明行合一（真智慧必引發行為改變）</td></tr><tr><td>全品結穴</td><td>「明・行・具足」——內證畢竟空，外顯無一失，二諦合一，是名佛；覺悟不是奇蹟而是對因果徹知的絕對確信</td></tr></tbody></table><p class="c2p8-note">本品僅以四百餘字定義「明行具足」，卻鋪展出一張從凡夫到佛陀的完整覺悟地圖。「通」與「明」之別在於看見結果或看透因緣，「阿羅漢與佛」之別則在於這份因緣洞察是否「畢竟空」——有餘或無餘、有牆或無牆、粗解析度或微觀解析度，一切差異最終都收束於空性證悟的徹底度。而「行名身口業」一句更點出：<b>內證的智慧若不能化為無一失誤的身口業</b>（如必陵伽婆蹉五百世慣性仍在言語中滲漏），便不算真正具足。明是勝義諦的深潛，行是世俗諦的顯發，二者合一，方是「明行具足」四字的全部重量。</p></div></div>
+<script id="wy-c2p8-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p8Btn"),BOX=document.getElementById("c2p8Box"),MODAL=document.getElementById("c2p8Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=7;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p8Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P8:END-->
 </body>
 </html>
