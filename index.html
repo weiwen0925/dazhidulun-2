@@ -1227,63 +1227,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P16:BEGIN-->
-<style id="wy-c2p16-css">
-.c2p16-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p16-fabbox.show{display:block;}
-.c2p16-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p16-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p16-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p16-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p16-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p16-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p16-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p16-modal.open{display:flex;}
-.c2p16-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p16-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p16-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p16-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p16-close:hover{background:#e3d5b8;}
-.c2p16-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p16-tbl th,.c2p16-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p16-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p16-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p16-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p16-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p16-fabbox{right:14px;}.c2p16-tbl{font-size:11.5px;}.c2p16-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p16-fabbox" id="c2p16Box"><button class="c2p16-btn" id="c2p16Btn" type="button" aria-label="開啟全景總表"><span class="c2p16-ic">&#9638;</span><span class="c2p16-ls"><span class="c2p16-l1">本品 &middot; 名號即實相</span><span class="c2p16-l2">名不即實亦不離實・指月之指</span></span></button></div><div class="c2p16-modal" id="c2p16Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p16-card"><button class="c2p16-close" id="c2p16Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十六品 名號即實相 · 全景總表</h3><p class="sub">卷二・第16品｜全八章｜隨德立名・指月之指</p><table class="c2p16-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>隨德立名：名言施設的邏輯基礎</td><td>經文列六梵語名號（阿娑磨阿娑摩娑摩路迦那他波羅伽婆檀陀尸梨伽那）以「秦言」逐一釋義；隨德立名＝Prajñaptir upādāya受施設，德先於名非任意標籤</td><td>隨德立名、受施設、假名施設</td></tr><tr><td>第二章</td><td>阿娑磨「無等」：否定式辯證</td><td>三界（欲色無色）內無任何眾生與佛比肩，此全稱否定不是程度差別而是超越「境界」範疇本身指向空性，呼應中論八不否定式邏輯</td><td>無等、三界無等、空性不可比擬</td></tr><tr><td>第三章</td><td>阿娑摩娑摩「無等等」：悖論的消解</td><td>「無等」與「等」兩義位疊於一名——對凡夫言無等（超越一切眾生），對諸佛言等（法身平等）；於差別中見平等於平等中見差別</td><td>無等等、雙重視角、法身平等</td></tr><tr><td>第四章</td><td>路迦那他「世尊」：主權與關係的辯證</td><td>Loka（世）+Nātha（尊/依怙），非統治義而是依怙方向義；世（毀壞義）與世尊（不壞義）對照，佛是壞滅世界中的不壞者，涅槃不離世間</td><td>世尊、依怙非統治、壞滅世界中的不壞者</td></tr><tr><td>第五章</td><td>波羅伽「度彼岸」：行動的辯證</td><td>Pāra（彼岸）+Ga（已去），知行圓滿完成旅程者；世俗諦有生死可渡有涅槃可達，勝義諦生死涅槃無二，度彼岸即戲論止息非物理移動</td><td>度彼岸、波羅蜜多、戲論止息、此岸即彼岸</td></tr><tr><td>第六章</td><td>婆檀陀、尸梨伽那「大德、厚德」：資糧的辯證</td><td>智慧資糧（般若空性）與福德資糧（利他行）雙修；「厚」非數量多寡而是以無我智慧封印福德使之堅實不壞，唯基於空性之德方為真厚德</td><td>大德厚德、智慧福德二資糧、無我智慧封印福德</td></tr><tr><td>第七章</td><td>悉達陀至佛：因果轉依</td><td>悉達陀（成利，因位潛能）得道時轉名為佛（覺者，果位實證）；「知一切諸法故是名為佛」即知一切法本性無自性；內證→功德→供養三段展開，供養是自然感應非交易</td><td>因果轉依、成利與覺者、內證功德供養</td></tr><tr><td>第八章</td><td>中觀總結：名號與實相</td><td>六名號依世俗諦（關係積累緣起）勝義諦（超越解脫覺悟）二分卻是同一實相兩面；名不即實亦不離實如指月之指，功德無量故名號無量</td><td>二諦視角分類、指月之指、名不即實亦不離實</td></tr></tbody></table><p class="c2p16-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p16-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p16Btn"),BOX=document.getElementById("c2p16Box"),MODAL=document.getElementById("c2p16Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=15;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p16Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P16:END-->
 
 <!--WY-C2P17:BEGIN-->
 <style id="wy-c2p17-css">
@@ -2354,5 +2297,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P15:END-->
+<!--WY-C2P16:BEGIN-->
+<style id="wy-c2p16-css">
+.c2p16-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p16-fabbox.show{display:block;}
+.c2p16-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p16-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p16-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p16-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p16-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p16-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p16-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p16-modal.open{display:flex;}
+.c2p16-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p16-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p16-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p16-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p16-close:hover{background:#e3d5b8;}
+.c2p16-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p16-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p16-tbl th,.c2p16-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p16-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p16-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p16-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p16-tbl b{color:#8b2500;}
+.c2p16-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p16-note b{color:#8b2500;}
+@media(max-width:900px){.c2p16-fabbox{right:14px;}.c2p16-tbl{font-size:11.5px;}.c2p16-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p16-fabbox" id="c2p16Box"><button class="c2p16-btn" id="c2p16Btn" type="button" aria-label="開啟全景總表"><span class="c2p16-ic">▦</span><span class="c2p16-ls"><span class="c2p16-l1">本品 · 隨德立名釋論</span><span class="c2p16-l2">六梵語名號・名不即實亦不離實</span></span></button></div><div class="c2p16-modal" id="c2p16Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p16-card"><button class="c2p16-close" id="c2p16Close" type="button" aria-label="關閉">×</button><h3>卷二·第十六品 隨德立名釋論 · 全景總表</h3><p class="sub">卷二・第16品｜全八章｜阿娑磨無等・波羅伽度彼岸・悉達陀至佛</p><table class="c2p16-tbl"><caption>一、隨德立名的邏輯基礎與六名號（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>隨德立名</td><td>名非任意標籤，是德的因緣施設，名號不具固有自性，捨此功德則名亦不存——對應中觀 Prajñaptir upādāya（受施設、依緣而立）</td></tr><tr><td>阿娑磨無等</td><td>三界內無與比肩，是全稱否定；中觀義：空性不可比擬，佛不在「比較」這個座標軸上，如《中論》八不之否定式辯證</td></tr><tr><td>阿娑摩娑摩無等等</td><td>對凡夫而言無等（相對三界一切眾生無與倫比）、對諸佛而言等（十方三世諸佛同證一空性）——悖論消解於雙重視角</td></tr><tr><td>路迦那他世尊</td><td>Loka（世，隱含毀壞義）＋Nātha（依怙），佛非統治世間而是「壞滅世界中的不壞者」，涅槃不離世間</td></tr><tr><td>波羅伽度彼岸</td><td>Pāra（彼岸）＋Ga（已去），「知」的圓滿加「行」的完成；此岸即彼岸，度並非物理移動而是戲論的止息</td></tr></tbody></table><table class="c2p16-tbl"><caption>二、資糧辯證與因果轉依（本品核心開展）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>婆檀陀大德</td><td>福德資糧的廣大——布施持戒忍辱精進等利他行所成就的功德海</td></tr><tr><td>尸梨伽那厚德</td><td>「厚」相對於「薄」指堅實不壞而非數量多寡，以無我智慧封印福德方脫離有漏範疇，唯有基於空性的德才是真實厚德</td></tr><tr><td>悉達陀至佛</td><td>悉達陀（成利，因位，世俗諦潛能）→得道時知一切諸法故是名為佛（覺者，果位，勝義諦實證），是整個生命的轉依</td></tr><tr><td>知一切法即知無我</td><td>「知一切諸法」非博學多聞而是透徹一切法的空性本質，佛的圓滿在對無自性的徹底證悟</td></tr><tr><td>內證功德供養三段</td><td>內證實相→建立功德→應受諸天世人供養，供養非交易而是對厚德的自然感應，如花開引蝶月明照地</td></tr></tbody></table><table class="c2p16-tbl"><caption>三、二諦總結與名實關係（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>二諦視角下的名號分類</td><td>世俗諦（世尊主宰義、大德積累義、成利緣起義）與勝義諦（無等超越義、度彼岸解脫義、佛覺悟義），同一實相兩面顯現</td></tr><tr><td>名是假名施設</td><td>「佛」這個名與佛陀的實證境界並非同一物，把名號當實相是執取</td></tr><tr><td>但離名無由顯實</td><td>若離開名言，凡夫便無從接近實相，名言在世俗諦下擔任指引角色</td></tr><tr><td>指月之指</td><td>執著指尖則永遠看不到月亮，但若拒絕指尖又無從知道往哪裡看，中觀「不即不離」正是要避開這兩個極端</td></tr><tr><td>功德無量故名號無量</td><td>「如是等無量名號」收束整品，這句話完成邏輯閉環——功德所及之處皆可隨德立名，邏輯可以無限延伸</td></tr></tbody></table><p class="c2p16-note">本品僅一百六十餘字的名號補列，卻是龍樹中觀「名言假設、不離實相」的微縮模型。六個梵語名號——無等、無等等、世尊、度彼岸、大德、厚德——各自從超越、平等、依怙、解脫、福德、無漏六個維度定位佛陀，而「悉達陀至佛」的因果轉依，則揭示了從潛能到實證、從世俗到勝義的生命轉換。<b>名不即實，亦不離實</b>：名號是指月之指，執著指尖看不到月亮，但拒絕指尖也無從知道往哪裡看。這正是本品留給讀者最深的提醒——透過名號而又不執著名號，是讀完整部《大智度論》的方法。</p></div></div>
+<script id="wy-c2p16-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p16Btn"),BOX=document.getElementById("c2p16Box"),MODAL=document.getElementById("c2p16Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=15;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p16Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P16:END-->
 </body>
 </html>
