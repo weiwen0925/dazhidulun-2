@@ -1225,63 +1225,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P14:BEGIN-->
-<style id="wy-c2p14-css">
-.c2p14-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p14-fabbox.show{display:block;}
-.c2p14-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p14-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p14-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p14-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p14-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p14-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p14-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p14-modal.open{display:flex;}
-.c2p14-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p14-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p14-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p14-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p14-close:hover{background:#e3d5b8;}
-.c2p14-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p14-tbl th,.c2p14-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p14-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p14-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p14-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p14-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p14-fabbox{right:14px;}.c2p14-tbl{font-size:11.5px;}.c2p14-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p14-fabbox" id="c2p14Box"><button class="c2p14-btn" id="c2p14Btn" type="button" aria-label="開啟全景總表"><span class="c2p14-ic">&#9638;</span><span class="c2p14-ls"><span class="c2p14-l1">本品 &middot; 天人師</span><span class="c2p14-l2">人道是樞紐・造因改運唯人能</span></span></button></div><div class="c2p14-modal" id="c2p14Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p14-card"><button class="c2p14-close" id="c2p14Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第十四品 天人師 · 全景總表</h3><p class="sub">卷二・第14品｜全七章｜五重邏輯量性攝器因・緣起假名</p><table class="c2p14-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>名號源流與經典原文</td><td>佛十號第十「舍多提婆魔㝹舍喃」三音節拆解——舍多（教師）提婆（天）魔㝹舍喃（人），字面義天人教師，埋下「為何只列天人」之張力</td><td>天人師、Śāstā Devamanuṣyāṇām</td></tr><tr><td>第二章</td><td>云何名天人教師</td><td>示導（應作不應作善不善）→依教（隨教行不捨道法）→結果（得煩惱解脫報）三重結構定義教師功能，判準在能否引導證果而非博學</td><td>示導依教結果、教師功能機制</td></tr><tr><td>第三章</td><td>核心提問：何以獨言天人師</td><td>「佛能度龍鬼神等墮餘道中生者何以獨言天人師」正當學理懷疑，開啟五重邏輯辯證（量性攝器因）作為回應骨幹</td><td>核心提問、五重辯證骨幹</td></tr><tr><td>第四章</td><td>五重邏輯辯證</td><td>量（白人黑黶子喻多數決）、性（人結使薄厭心易得天智慧利，苦是資產）、攝（言天攝一切天言人攝一切地上生者以大攝小）、器（受戒律儀見諦道等唯天人易得多得）、因（人造因天享果三惡道因果循環斷裂）</td><td>量性攝器因、白人黑黶子喻、善法因果循環</td></tr><tr><td>第五章</td><td>從法相到心法：修行三訣</td><td>珍重人身轉苦為道（苦是燃料非障礙）、築基於善法器之本（戒為地基）、抓大放小確立主軸；人道為因果投資階段唯一能改變命運</td><td>珍重人身、築基於善、抓大放小、因果投資階段</td></tr><tr><td>第六章</td><td>中觀深義：緣起與假名</td><td>緣起觀（人持戒厭心＋天智慧樂報交集方為得道必要條件）、假名觀（天人師是世俗諦施設允許以偏概全，勝義無師無徒），三層金字塔經論邏輯修行心法中觀見地</td><td>緣起假名、文氏圖交集、三層立體結構</td></tr><tr><td>第七章</td><td>結語：你的位置</td><td>理論指向讀者本人——你是人具足厭心與法器資格，人道是宇宙中唯一能造因改運的樞紐位置，願共入佛法大海</td><td>你的位置、因緣已具只待實踐</td></tr></tbody></table><p class="c2p14-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p14-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p14Btn"),BOX=document.getElementById("c2p14Box"),MODAL=document.getElementById("c2p14Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=13;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p14Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P14:END-->
 
 <!--WY-C2P15:BEGIN-->
 <style id="wy-c2p15-css">
@@ -2362,5 +2305,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P13:END-->
+<!--WY-C2P14:BEGIN-->
+<style id="wy-c2p14-css">
+.c2p14-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p14-fabbox.show{display:block;}
+.c2p14-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p14-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p14-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p14-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p14-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p14-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p14-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p14-modal.open{display:flex;}
+.c2p14-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p14-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p14-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p14-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p14-close:hover{background:#e3d5b8;}
+.c2p14-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p14-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p14-tbl th,.c2p14-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p14-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p14-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p14-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p14-tbl b{color:#8b2500;}
+.c2p14-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p14-note b{color:#8b2500;}
+@media(max-width:900px){.c2p14-fabbox{right:14px;}.c2p14-tbl{font-size:11.5px;}.c2p14-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p14-fabbox" id="c2p14Box"><button class="c2p14-btn" id="c2p14Btn" type="button" aria-label="開啟全景總表"><span class="c2p14-ic">▦</span><span class="c2p14-ls"><span class="c2p14-l1">本品 · 天人師釋論</span><span class="c2p14-l2">舍多提婆魔㝹舍喃・量性攝器因五重辯證</span></span></button></div><div class="c2p14-modal" id="c2p14Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p14-card"><button class="c2p14-close" id="c2p14Close" type="button" aria-label="關閉">×</button><h3>卷二·第十四品 天人師釋論 · 全景總表</h3><p class="sub">卷二・第14品｜全七章｜示導依教結果・五重邏輯・緣起假名</p><table class="c2p14-tbl"><caption>一、名號源流與核心提問（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>梵語三段</td><td>舍多（教師）、提婆（天）、魔㝹舍喃（人），字面「天與人的教師」，卻藏著「為何只列天人不含六道」的張力</td></tr><tr><td>教師的功能定義</td><td>示導（應作不應作、是善是不善）→依教（人隨教行不捨道法）→結果（得煩惱解脫報），三段任一斷裂天人師便不成立</td></tr><tr><td>核心問難</td><td>「佛能度龍鬼神等墮餘道中生者，何以獨言天人師？」——這是學理上的正當懷疑，若佛慈悲普照豈不以偏概全</td></tr><tr><td>白色人黑黶子喻</td><td>度餘道中生者少、度天人中生者多，如白色人雖有黑黶子不名黑人，命名取主不取次是語言的自然邏輯</td></tr><tr><td>五重邏輯總覽</td><td>量（多數決）、性（結使薄智慧利）、攝（以大攝小）、器（受戒證果之資格）、因（善法因果循環），由表及裡層層支撐</td></tr></tbody></table><table class="c2p14-tbl"><caption>二、五重邏輯辯證的具體展開</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>量的比例</td><td>度餘道中生者少度天人中生者多，如白人黑黶不名黑人，取主軸捨例外是語言的自然邏輯</td></tr><tr><td>性的根機</td><td>人中結使薄厭心易得（苦是燃料，激發出離心），天中智慧利（心智敏銳），二道恰好構成覺悟的最佳配方</td></tr><tr><td>攝的代表</td><td>言天則攝一切天、言人則攝一切地上生者，天上則天大地上則人大，提及領袖即涵蓋眷屬，名義專注實質普度</td></tr><tr><td>器的資格</td><td>人中得受戒律儀見諦道思惟道及諸道果，天人易得多得，餘道不得或僅得少分——只有天人是合格的法器</td></tr><tr><td>因的循環</td><td>人中行樂因多（造因端）、天中樂報多（享果端），善法是樂因樂是善法報，構成完整善法因果循環；三惡道因苦痛過劇或愚癡過重被排除於此循環之外</td></tr></tbody></table><table class="c2p14-tbl"><caption>三、修行心法與中觀深義（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>心法一珍重人身</td><td>結使薄厭心易得，不要抱怨人生的苦難，苦是激發出離心的燃料而非要被消除的障礙</td></tr><tr><td>心法二築基於善</td><td>善法是樂因，受戒律儀列在見諦道諸道果之前，空性是屋頂戒律是地基缺一不可</td></tr><tr><td>心法三抓大放小</td><td>佛陀將資源集中在最能成就的根機上，確立核心主軸自然能以大攝小，不被例外分散主力</td></tr><tr><td>緣起與假名雙鑰匙</td><td>人道條件（持戒厭心）加天道條件（智慧樂報）之交集才是得道的必要條件；「天人師」是世俗諦的假名施設，正因是假名才能以偏概全而實質普度</td></tr><tr><td>樞紐位置</td><td>天界在消費資本（享受果報）、惡道在償還債務（受苦）、人道是唯一的投資階段（能決定未來），只有人類擁有改變命運的主動權</td></tr></tbody></table><p class="c2p14-note">本品從「天人師」名號的字面張力出發——為何佛只以天人為名，而不含六道全體？龍樹以量性攝器因五重邏輯層層作答：從最表面的數量比例，到根機優劣的因緣配方，到語言上以代表攝總體的巧妙，到修道體系的法器資格，最後收束於人道造因、天道享果的善法循環。三惡道並非被排除於慈悲之外，而是被排除於「造因得果」的因果鏈之外——苦痛過劇或愚癡過重，使其無暇參與這條鏈條。<b>人道是宇宙中唯一能造因改運的樞紐位置</b>，這正是本品留給每位讀者最切身的叩問：你是否認出自己正站在這個位置上？</p></div></div>
+<script id="wy-c2p14-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p14Btn"),BOX=document.getElementById("c2p14Box"),MODAL=document.getElementById("c2p14Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=13;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p14Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P14:END-->
 </body>
 </html>
