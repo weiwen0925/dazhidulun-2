@@ -1215,63 +1215,6 @@ if(backTop) backTop.addEventListener('click', function(){
 
 
 
-<!--WY-C2P4:BEGIN-->
-<style id="wy-c2p4-css">
-.c2p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
-.c2p4-fabbox.show{display:block;}
-.c2p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
-.c2p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
-.c2p4-ic{font-size:15px;line-height:1;color:#ecc978;}
-.c2p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
-.c2p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
-.c2p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
-.c2p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
-.c2p4-modal.open{display:flex;}
-.c2p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
-.c2p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
-.c2p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
-.c2p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
-.c2p4-close:hover{background:#e3d5b8;}
-.c2p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
-.c2p4-tbl th,.c2p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
-.c2p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
-.c2p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
-.c2p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
-.c2p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
-@media(max-width:900px){.c2p4-fabbox{right:14px;}.c2p4-tbl{font-size:11.5px;}.c2p4-card{padding:26px 14px 16px;}}
-</style>
-<div class="c2p4-fabbox" id="c2p4Box"><button class="c2p4-btn" id="c2p4Btn" type="button" aria-label="開啟全景總表"><span class="c2p4-ic">&#9638;</span><span class="c2p4-ls"><span class="c2p4-l1">本品 &middot; 婆伽婆釋論</span><span class="c2p4-l2">婆伽婆四義・果智位行循環互攝</span></span></button></div><div class="c2p4-modal" id="c2p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p4-card"><button class="c2p4-close" id="c2p4Close" type="button" aria-label="關閉">&times;</button><h3>卷二·第四品 婆伽婆釋論 · 全景總表</h3><p class="sub">卷二・第4品｜全七章｜婆伽婆四義・佛勝轉輪聖王九辯</p><table class="c2p4-tbl"><thead><tr><th>章</th><th>主題</th><th>核心命題</th><th>關鍵名相</th></tr></thead><tbody><tr><td>第一章</td><td>原典全文</td><td>經論釋曰四義之經論本文完整呈現——有德巧分別有名聲能破，作全品討論根據</td><td>婆伽婆、經論釋曰</td></tr><tr><td>第二章</td><td>釋論之邏輯架構</td><td>一問四答樹狀結構依「果→智→位→行」修證次第遞進；有名聲一義獨佔近半篇幅，因「位」最易與世俗成就觀混淆</td><td>果智位行、策略性失衡</td></tr><tr><td>第三章</td><td>釋義一・有德</td><td>「婆伽」訓德「婆」訓有，佛非貪求所得之擁有，乃修證圓滿後自然顯現之擁有，立「佛是擁有者」存在論基調</td><td>有德、擁有之圓滿、行德與有德之別</td></tr><tr><td>第四章</td><td>釋義二・巧分別</td><td>「婆伽」訓分別「婆」訓巧，佛智於同一剎那雙照諸法總相（無常苦空無我）與別相（地堅水濕火熱風動），不偏不漏</td><td>巧分別、總相別相、般若雙照</td></tr><tr><td>第五章</td><td>釋義三・有名聲</td><td>以轉輪聖王為比較基準，九段對辯（結縛解脫／沈淪渡越／恩愛主宰／險境安穩／無明第一明／疆域世界／財自在心自在／貪著無染／外求內樂）證佛非量勝乃質異，末句延伸諸天亦復如是封閉論證</td><td>九段辯證、轉輪聖王、質的超越、遮詮</td></tr><tr><td>第六章</td><td>釋義四・能破</td><td>「婆」轉訓為能，揭示前三義之能動源頭——佛能破婬怒癡三毒，「破」為因「有」為果，能破則人皆可為佛</td><td>能破、三毒、能動性、破為因有為果</td></tr><tr><td>第七章</td><td>四義統整與中觀視角</td><td>四象限圖統整因果互攝之網；中觀二諦視角——能破對應勝義空、有德巧分別有名聲對應世俗幻有，破而能立立而不執即中道；終歸行者「加法轉減法」之思惟轉化</td><td>四義一體、破與立、中道、加法轉減法</td></tr></tbody></table><p class="c2p4-note">總表依本品原典通讀整理，供快速掛握章節脈絡與核心命題；欲穷其義，仍請詳讀本品全文。</p></div></div>
-<script id="wy-c2p4-js">(function(){
-var CH=document.querySelectorAll("section.chapter");
-var BTN=document.getElementById("c2p4Btn"),BOX=document.getElementById("c2p4Box"),MODAL=document.getElementById("c2p4Modal");
-if(!CH.length||!BTN||!BOX||!MODAL)return;
-var TARGET=3;
-function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
-var FSEL="#wyChapterVideo,#wyFloatYt,.wy-video-fab,.floating-yt,#wyVideoBtn,#vid-floating,#floatingYt,#vidFab,.vid-fab,#videoFab,#wyFab,#wy-fab,.wy-vbtn";
-function fab(){
-  var els=document.querySelectorAll(FSEL);
-  for(var i=0;i<els.length;i++){
-    var e=els[i],r=e.getBoundingClientRect(),st=getComputedStyle(e);
-    if(r.height>0&&st.display!=="none"&&st.visibility!=="hidden")return e;
-  }
-  return null;
-}
-function place(){
-  var base=null,eb=document.querySelector(".wy-ebox");
-  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
-  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect();base=Math.round(window.innerHeight-fr.top)+10;}}
-  if(base===null)base=78;
-  BOX.style.bottom=base+"px";
-}
-function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
-var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
-window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
-BTN.addEventListener("click",function(){MODAL.classList.add("open");});
-MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p4Close")MODAL.classList.remove("open");});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
-upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
-})();</script>
-<!--WY-C2P4:END-->
 
 <!--WY-C2P5:BEGIN-->
 <style id="wy-c2p5-css">
@@ -2402,5 +2345,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C2P3:END-->
+<!--WY-C2P4:BEGIN-->
+<style id="wy-c2p4-css">
+.c2p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c2p4-fabbox.show{display:block;}
+.c2p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c2p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c2p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c2p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c2p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c2p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c2p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c2p4-modal.open{display:flex;}
+.c2p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c2p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c2p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c2p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c2p4-close:hover{background:#e3d5b8;}
+.c2p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c2p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c2p4-tbl th,.c2p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c2p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c2p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c2p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c2p4-tbl b{color:#8b2500;}
+.c2p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c2p4-note b{color:#8b2500;}
+@media(max-width:900px){.c2p4-fabbox{right:14px;}.c2p4-tbl{font-size:11.5px;}.c2p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c2p4-fabbox" id="c2p4Box"><button class="c2p4-btn" id="c2p4Btn" type="button" aria-label="開啟全景總表"><span class="c2p4-ic">▦</span><span class="c2p4-ls"><span class="c2p4-l1">本品 · 釋婆伽婆四義</span><span class="c2p4-l2">有德巧分別有名聲能破・果智位行</span></span></button></div><div class="c2p4-modal" id="c2p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c2p4-card"><button class="c2p4-close" id="c2p4Close" type="button" aria-label="關閉">×</button><h3>卷二·第四品 婆伽婆釋論 · 全景總表</h3><p class="sub">卷二・第4品｜全七章｜四義一體・佛勝轉輪聖王九辯</p><table class="c2p4-tbl"><caption>一、婆伽婆四義與修證次第（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>一問四答</td><td>「云何名婆伽婆」一問，引出有德、巧分別、有名聲、能破四個「復次」，各拆解梵語 bhaga／vat 兩詞根之不同訓詁</td></tr><tr><td>果智位行次第</td><td>有德（果・擁有德性圓滿）→巧分別（智・善巧分別總相別相）→有名聲（位・無有得名聲如佛者）→能破（行・能破婬怒癡），前三靜態擁有、末一動態能破</td></tr><tr><td>篇幅策略性失衡</td><td>「有名聲」獨佔近半篇幅擴為九段對辯，因「位」最易與世俗成就觀混淆，需以最重之力破除「佛等於量之頂峰」的想像</td></tr><tr><td>因果反向暗線</td><td>表面次第是果智位行，實際因果鏈反向——「能破」為因，「有德」「巧分別」「有名聲」為其顯現，論主刻意將「行」殿後促讀者回頭領悟</td></tr><tr><td>四象限統整</td><td>果（有德）、智（巧分別）、位（有名聲）、行（能破）四義因果互攝成環，轉一圈仍回到「能破」，是「四義一體」的循環論證</td></tr></tbody></table><table class="c2p4-tbl"><caption>二、佛勝轉輪聖王九段辯證（有名聲之核心開展）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>比較基準</td><td>選轉輪聖王（世俗成就最高者）而非凡夫或直接天神為標桿，逐項拆解逼讀者承認連此頂峰亦「無有及佛」</td></tr><tr><td>九辯要目</td><td>結縛與解脫、沈淪與渡越、恩愛與主宰、險境與安穩、無明與第一明、疆域與世界、財自在與心自在、貪求天樂與有頂不著、外求與內樂</td></tr><tr><td>質的超越</td><td>九辯總結非程度之別乃本質之異——轉輪聖王代表世俗頂峰仍屬「有限有為有漏」，佛代表出世間圓滿「無量無為無漏」</td></tr><tr><td>邏輯封閉</td><td>「諸餘釋梵護世者，亦復如是，但於轉輪聖王小勝」——天神雖優於聖王仍屬輪迴範疇，此句補全論證使退路封死</td></tr><tr><td>能破三毒</td><td>婬怒癡三毒互為根本（癡為根貪瞋為枝），般若智破癡、大悲心化貪瞋，三毒既盡則有德、巧分別、有名聲三果圓滿俱現</td></tr></tbody></table><table class="c2p4-tbl"><caption>三、中觀視角與行者思惟轉化（中觀收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>破立中道</td><td>「能破」對應勝義諦之空（遮詮），「有德巧分別有名聲」對應世俗諦之幻有（表詮）——破而能立、立而不執，乃成中道</td></tr><tr><td>神授論的顛覆</td><td>佛之神聖性全在「能破」這一動詞而非被授予的本質——能破則人皆可為佛，不破則佛亦無以為佛</td></tr><tr><td>加法變減法</td><td>世俗成就邏輯是不斷累積財富名聲權勢的加法，佛之成就邏輯是以能破斷盡煩惱結縛的減法，減無可減時所剩即是法身</td></tr><tr><td>從外求到內樂</td><td>追求財自在→追求心自在，從他求樂→內心自樂，累積堆疊→破除執著，三組轉化描繪聖王思惟到佛思惟的路徑</td></tr><tr><td>名號即觀法</td><td>「無有及佛，何況諸餘凡庶」收攝全品，讀者每念「世尊」二字即憶四義，名號即觀法、觀法即修行</td></tr></tbody></table><p class="c2p4-note">本品僅釋一名號「婆伽婆」，卻在短短百字經文中，安置了從擁有（有德、巧分別、有名聲）到能動（能破）的完整中觀辯證。九段對辯層層堆疊佛與轉輪聖王的懸殊，目的不在誇飾佛之偉大，而在徹底拆解世人以「量」度佛的世俗慣性——佛之超越是質的斷裂，不是程度的疊加。而「能破」殿後的設計，恰恰揭示中道最深的弔詭：<b>一切莊嚴的擁有，其實源自一個徹底的放下與破除</b>。破而能立、立而不執，正是「婆伽婆」一名所攝盡的修證全程。</p></div></div>
+<script id="wy-c2p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c2p4Btn"),BOX=document.getElementById("c2p4Box"),MODAL=document.getElementById("c2p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c2p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C2P4:END-->
 </body>
 </html>
