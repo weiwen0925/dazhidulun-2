@@ -3382,5 +3382,54 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH2P14:END-->
+<!--WY-BH2P15:BEGIN-->
+<style id="wy-bh2p15-css">
+.bh2p15-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh2p15-fabbox.show{display:block;}
+.bh2p15-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh2p15-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh2p15-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh2p15-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh2p15-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh2p15-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh2p15-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh2p15-modal.open{display:flex;}
+.bh2p15-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh2p15-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh2p15-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh2p15-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh2p15-close:hover{background:#dde2e6;}
+.bh2p15-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh2p15-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh2p15-tbl th,.bh2p15-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh2p15-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh2p15-tbl thead th:nth-child(1){width:32%;}.bh2p15-tbl thead th:nth-child(2){width:41%;}.bh2p15-tbl thead th:nth-child(3){width:27%;}
+.bh2p15-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh2p15-guan{background:#eef2f5;color:#37505f;}
+.bh2p15-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh2p15-tbl tbody tr:nth-child(even) td.bh2p15-guan{background:#e8eef2;}
+.bh2p15-tbl b{color:#8b2500;}
+.bh2p15-guan b{color:#2f6b5a;}
+.bh2p15-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh2p15-note b{color:#8b2500;}
+@media(max-width:900px){.bh2p15-fabbox{right:14px;}.bh2p15-tbl{font-size:11px;}.bh2p15-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh2p15-fabbox" id="bh2p15Box"><button class="bh2p15-btn" id="bh2p15Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh2p15-ic">譯</span><span class="bh2p15-ls"><span class="bh2p15-l1">本品 · 原文·白話·中觀</span><span class="bh2p15-l2">白話翻譯表</span></span></button></div><div class="bh2p15-modal" id="bh2p15Modal" role="dialog" aria-modal="true"><div class="bh2p15-card"><button class="bh2p15-close" id="bh2p15Close" type="button" aria-label="關閉">×</button><h3>卷二 · 第15品 白話翻譯表</h3><p class="sub">《大智度論》卷二·釋初品中如來十號義「佛智勝天論」· 原文↔白話↔中觀概念 逐段對照</p><table class="bh2p15-tbl"><caption>「佛智勝天論」· 原文｜白話翻譯｜中觀概念（共7段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh2p15-src">復名佛陀（秦言「知者」）。知何等法？知過去、未來、現在，眾生數、非眾生數，有常、無常等一切諸法。菩提樹下了了覺知，故名為佛陀。</td><td>佛又叫做「佛陀」，漢語譯作「知者」。知道什麼法呢？知道過去、未來、現在三世，有情眾生與非有情的萬物，以及有常、無常等一切諸法的實相。因為<b>在菩提樹下徹底、清晰地覺悟了知這一切</b>，所以稱為「佛陀」。</td><td class="bh2p15-guan"><b>如實知見一切法</b>——「了了覺知」非局部知，乃洞照一切法緣起實相，此知非神授，是菩提樹下實修所證，故為「可學可證」之覺悟，非天生神格。</td></tr><tr><td class="bh2p15-src">問曰：餘人亦知一切諸法，如摩醯首羅天（秦言「大自在」），八臂，三眼，騎白牛。如韋紐天（秦言「遍悶」），四臂，捉貝持輪，騎金翅鳥。如鳩摩羅天（秦言「童子」），是天擎雞持鈴，捉赤幡，騎孔雀，皆是諸天大將。如是等諸天，各各言大，皆稱一切智。有人作弟子，學其經書，亦受其法，言是一切智。</td><td>有人問：其他人（神祇）也自稱知道一切法啊，例如摩醯首羅天（漢語譯作「大自在」），有八隻手臂、三隻眼睛，騎乘白牛；又如韋紐天（漢語譯作「遍悶」），有四隻手臂，手持法螺、輪寶，騎乘金翅鳥；又如鳩摩羅天（漢語譯作「童子」），手中托著雞、持著鈴鐺，拿著紅色旗幟，騎乘孔雀，這些都是諸天中的大將。這些天神各個都自稱偉大，都宣稱自己是「<b>一切智者</b>」。也有人做他們的弟子，學習他們的經典，接受他們的教法，同樣宣稱（其師）是一切智者。</td><td class="bh2p15-guan"><b>外道立論·權威迷思</b>——此為論主先立外道問難：神異相好、經典傳承並不等於「一切智」，此問難鋪陳正是為破除「以神通神異論斷智慧究竟」的顛倒執著。</td></tr><tr><td class="bh2p15-src">答曰：此不應一切智。何以故？瞋恚、憍慢心著故。如偈說：</td><td>（論主）回答說：這些天神不應當被稱為「一切智者」。為什麼呢？因為他們仍有<b>瞋恚、憍慢等煩惱執著</b>的緣故。正如偈頌所說：</td><td class="bh2p15-guan"><b>煩惱未斷則智不究竟</b>——一切智必伴隨煩惱全然清淨，「心著」（我執、法執）與「一切智」不能並立，此為破邪的根本判準。</td></tr><tr><td class="bh2p15-src">若彩畫像及泥像，聞經中天及讚天，如是四種諸天等，各各手執諸兵杖。若力不如畏怖他，若心不善恐怖他，此天定必若怖他，若少力故畏怖他。是天一切常怖畏，不能除却諸衰苦。有人奉事恭敬者，現世不免沒憂海；有人不敬不供養，現世不妨受富樂。當知虛誑無實事，是故智人不屬天。若世間中諸眾生，業因緣故如循環，福德緣故生天上，雜業因緣故人中，世間行業屬因緣，是故智者不依天！</td><td>無論是彩繪的畫像、泥塑的偶像，還是經典中聽聞到的天神、被讚頌的天神，這四種天神都一樣，個個手中都拿著兵器法杖。如果是因為力量不如人而害怕對方，或是因為心存不善而想恐嚇對方——這樣的天神必定是因為自己畏懼他人，或因力量微弱而心生恐懼。這些天神其實一直都活在恐懼之中，<b>自己都無法除去衰敗痛苦，又怎能真正救拔他人</b>？有人恭敬奉事天神，今生卻仍免不了沉沒於憂愁苦海；有人不恭敬、不供養天神，今生卻照樣享受富貴安樂。由此可知，<b>天神的威能其實是虛妄不實的</b>，所以真正有智慧的人不會歸屬、依附於天神。再說，世間一切眾生，都是隨業力因緣如環無端地流轉：因純淨福德而生於天上，因善惡雜業而投生人道——世間的種種果報都屬於因緣所生，因此有智慧的人不會依止天神！</td><td class="bh2p15-guan"><b>因緣所生·非自在天主宰</b>——以「常怖畏」「虛誑無實」「業因緣故如循環」層層論證：禍福、生天生人皆是業因緣所生法，並無一個能主宰禍福的「自在天」實體，正是緣起無自性的具體展開。</td></tr><tr><td class="bh2p15-src">復次，是三天，愛之則欲令得一切願，惡之則欲令七世滅。佛不爾。菩薩時，若怨家賊來欲殺，尚自以身肉、頭目、髓腦而供養之，何況得佛不惜身時！以是故，獨佛應當受佛名號。應當歸命佛，以佛為師，不應事天。</td><td>再者，這三位天神，如果喜愛一個人，就想讓他滿足一切願望；如果厭惡一個人，就想讓他家族七代都遭滅絕（愛憎皆帶著強烈的偏私）。佛卻不是這樣。佛在菩薩因地修行時，即使有怨敵、盜賊前來要殺害他，尚且甘願以自己的血肉、頭目、骨髓腦漿來供養對方，何況是已經成佛、更加不吝惜身命的時候呢！因此，<b>只有佛才應當獨自承受「佛」這個尊貴名號</b>。應當歸依佛、以佛為師，不應該去事奉天神。</td><td class="bh2p15-guan"><b>無緣大悲 vs 愛憎二元</b>——天神之愛憎依「我執」而起，屬二元對立的世俗情執；佛之捨身飼敵展現無條件、無所緣的大悲，正是「悲智雙運」超越愛憎二元的中道實踐。</td></tr><tr><td class="bh2p15-src">復次，佛有二事：一者大功德神通力，二者第一淨心，諸結使滅。諸天雖有福德神力，諸結使不滅故，心不清淨；心不清淨故，神力亦少。聲聞、辟支佛雖結使滅，心清淨，福德薄故力勢少。佛二法滿足，故稱勝一切人；餘人不勝一切人。</td><td>再者，佛具足兩件事：第一是廣大功德所成就的神通力，第二是最殊勝清淨的心——一切煩惱結使已全部斷盡。諸天神雖然有福德、神通力，但煩惱結使並未斷盡，所以心並不清淨；心不清淨，神通力也就相對有限。聲聞、辟支佛（阿羅漢、緣覺）雖然斷盡了煩惱、心已清淨，但因為累積的福德還不夠深廣，所以力量、威勢也還有限。唯有佛這<b>兩項條件都圓滿具足</b>，所以說佛超勝一切眾生；其餘任何一者都無法勝過一切人。</td><td class="bh2p15-guan"><b>福慧雙圓·二法滿足</b>——「大功德神通力」屬福德莊嚴（世俗諦所攝），「第一淨心結使滅」屬般若清淨（勝義諦所攝），唯佛二者圓滿具足，正顯二諦圓融、悲智雙運方為究竟。</td></tr><tr><td class="bh2p15-src">婆伽婆名有德，先已說。</td><td>「婆伽婆」（世尊）這個名號的意思是「<b>具足眾德者</b>」，這在前面（卷一）已經解釋過了。</td><td class="bh2p15-guan"><b>總結呼應·德號攝一切功德</b>——以「有德」總攝前文所論一切功德（大功德神通、淨心結使滅等），呼應全論十號體系一貫的假名施設架構。</td></tr></tbody></table><p class="bh2p15-note">本表為卷二第15品「佛智勝天論」的原文·白話·中觀三欄對照。龍樹菩薩以四重邏輯層層破諸天「一切智」之虛妄，顯佛陀福慧二法圓滿、悲智雙運方為究竟，正是緣起無自性、遮遣自在天主宰之中觀論證典範。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh2p15-js">(function(){
+var NS="bh2p15";
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById(NS+"Btn"),BOX=document.getElementById(NS+"Box"),MODAL=document.getElementById(NS+"Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=14;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id===NS+"Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH2P15:END-->
 </body>
 </html>
