@@ -2948,5 +2948,53 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH2P5:END-->
+<!--WY-BH2P6:BEGIN-->
+<style id="wy-bh2p6-css">
+.bh2p6-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh2p6-fabbox.show{display:block;}
+.bh2p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh2p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh2p6-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh2p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh2p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh2p6-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh2p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh2p6-modal.open{display:flex;}
+.bh2p6-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh2p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh2p6-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh2p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh2p6-close:hover{background:#dde2e6;}
+.bh2p6-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh2p6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh2p6-tbl th,.bh2p6-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh2p6-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh2p6-tbl thead th:nth-child(1){width:32%;}.bh2p6-tbl thead th:nth-child(2){width:41%;}.bh2p6-tbl thead th:nth-child(3){width:27%;}
+.bh2p6-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh2p6-guan{background:#eef2f5;color:#37505f;}
+.bh2p6-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh2p6-tbl tbody tr:nth-child(even) td.bh2p6-guan{background:#e8eef2;}
+.bh2p6-tbl b{color:#8b2500;}
+.bh2p6-guan b{color:#2f6b5a;}
+.bh2p6-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh2p6-note b{color:#8b2500;}
+@media(max-width:900px){.bh2p6-fabbox{right:14px;}.bh2p6-tbl{font-size:11px;}.bh2p6-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh2p6-fabbox" id="bh2p6Box"><button class="bh2p6-btn" id="bh2p6Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh2p6-ic">譯</span><span class="bh2p6-ls"><span class="bh2p6-l1">本品 · 原文·白話·中觀</span><span class="bh2p6-l2">白話翻譯表</span></span></button></div><div class="bh2p6-modal" id="bh2p6Modal" role="dialog" aria-modal="true"><div class="bh2p6-card"><button class="bh2p6-close" id="bh2p6Close" type="button" aria-label="關閉">×</button><h3>卷二 · 第6品 白話翻譯表</h3><p class="sub">多陀阿伽陀·阿羅呵釋論（如來·殺賊·不生·應供）· 原文↔白話↔中觀概念 逐段對照（共6段）</p><table class="bh2p6-tbl"><caption>卷二·第6品「多陀阿伽陀·阿羅呵釋論」· 原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh2p6-src">問曰：婆伽婆正有此一名？更有餘名？答曰：佛功德無量，名號亦無量；此名取其大者，以人多識故。復有異名，名多陀阿伽陀等。</td><td>有人問：佛只有「婆伽婆」這一個名號嗎？還是另外有其他名號呢？回答說：佛的功德無量無邊，因此名號也是無量無邊的；「婆伽婆」這個稱號只是取其中較為顯著、大眾普遍熟識的一個罷了。此外還有其他不同的名號，例如「多陀阿伽陀」等等。</td><td class="bh2p6-guan"><b>假名無量·隨義施設</b>——佛之名號雖無量，皆是隨其功德義理而假名安立，「取其大者」正顯名號本身並無實體，唯是方便攝眾之施設。</td></tr><tr><td class="bh2p6-src">云何名多陀阿伽陀？如法相解，如法相說；如諸佛安隱道來，佛亦如是來，更不去後有中，是故名多陀阿伽陀。</td><td>什麼叫做「多陀阿伽陀」呢？（意思是）佛能如實了解諸法的實相，也如實地宣說諸法的實相；又如同過去諸佛都是以同一條安穩之道而來（成佛），佛也是這樣而來的，並且從此不再退轉回到後世的生死輪迴之中，因此稱為「多陀阿伽陀」（如來）。</td><td class="bh2p6-guan"><b>如法相解·不來不去</b>——「如法相解，如法相說」即契合實相之如實知見；「更不去後有中」則彰顯不生不滅、不來不去的中道義，是八不中道在果位上的體現。</td></tr><tr><td class="bh2p6-src">復名阿羅呵。云何名阿羅呵？</td><td>佛又稱為「阿羅呵」。什麼叫做「阿羅呵」呢？</td><td class="bh2p6-guan"><b>設問承接</b>——由「多陀阿伽陀」轉入「阿羅呵」一名的解釋，顯佛名雖多，義理實則層層相扣、彼此呼應。</td></tr><tr><td class="bh2p6-src">「阿羅」名「賊」，「呵」名「殺」，是名「殺賊」。如偈說：「佛以忍為鎧，精進為剛甲，持戒為大馬，禪定為良弓，智慧為好箭；外破魔王軍，內滅煩惱賊，是名阿羅呵。」</td><td>「阿羅」意為「賊」，「呵」意為「殺」，合起來就是「殺賊」的意思。正如偈頌所說：「佛以忍辱作為鎧甲，以精進作為堅硬的鎧甲，以持戒作為駿馬，以禪定作為良弓，以智慧作為利箭；對外能擊破魔王的軍隊，對內能消滅煩惱這個賊寇，因此稱為阿羅呵。」</td><td class="bh2p6-guan"><b>內外賊喻·對治煩惱</b>——以忍、精進、持戒、禪定、智慧五種德目喻為武裝，內滅煩惱賊、外破魔軍，顯「殺賊」義是就對治、斷惑的實踐面而立名。</td></tr><tr><td class="bh2p6-src">復次，「阿」名「不」，「羅呵」名「生」，是名「不生」。佛心種子，後世田中不生，無明糠脫故。</td><td>又有一種解釋：「阿」意為「不」，「羅呵」意為「生」，合起來就是「不生」的意思。因為佛的心識種子，在來世的田地中不會再萌發生長，這是由於已經脫去了無明的糠殼的緣故。</td><td class="bh2p6-guan"><b>不生（無生）·八不之首</b>——以「心種不生」喻煩惱業因永斷，直接呼應中觀「八不」中的「不生」，是全論根本義理在此品的再度呈現。</td></tr><tr><td class="bh2p6-src">復次，「阿羅呵」名「應受供養」。佛諸結使除盡，得一切智慧故，應受一切天地眾生供養，以是故，佛名阿羅呵。</td><td>再者，「阿羅呵」也可解作「應受供養」。因為佛已經除盡一切煩惱結使，證得一切種智，所以應當接受天地間一切眾生的供養，因此佛又稱為「阿羅呵」。</td><td class="bh2p6-guan"><b>應供·福田義</b>——「應受供養」是就佛作為眾生福田的功德果報而立名，與「殺賊」「不生」合觀，構成阿羅呵三義層層遞進的完整邏輯。</td></tr></tbody></table><p class="'+NS+'-note">本表為卷二第6品「多陀阿伽陀·阿羅呵釋論」的原文·白話·中觀三欄對照。本品先釋「多陀阿伽陀」（如來）為如法相解、如法相說、更不去後有中；次釋「阿羅呵」三義——殺賊（斷惑）、不生（證真）、應供（福田），層層開展佛之名號義理，終歸中道實相。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh2p6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh2p6Btn"),BOX=document.getElementById("bh2p6Box"),MODAL=document.getElementById("bh2p6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh2p6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH2P6:END-->
 </body>
 </html>
