@@ -3480,5 +3480,54 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH2P16:END-->
+<!--WY-BH2P17:BEGIN-->
+<style id="wy-bh2p17-css">
+.bh2p17-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh2p17-fabbox.show{display:block;}
+.bh2p17-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh2p17-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh2p17-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh2p17-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh2p17-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh2p17-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh2p17-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh2p17-modal.open{display:flex;}
+.bh2p17-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh2p17-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh2p17-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh2p17-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh2p17-close:hover{background:#dde2e6;}
+.bh2p17-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh2p17-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh2p17-tbl th,.bh2p17-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh2p17-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh2p17-tbl thead th:nth-child(1){width:32%;}.bh2p17-tbl thead th:nth-child(2){width:41%;}.bh2p17-tbl thead th:nth-child(3){width:27%;}
+.bh2p17-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh2p17-guan{background:#eef2f5;color:#37505f;}
+.bh2p17-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh2p17-tbl tbody tr:nth-child(even) td.bh2p17-guan{background:#e8eef2;}
+.bh2p17-tbl b{color:#8b2500;}
+.bh2p17-guan b{color:#2f6b5a;}
+.bh2p17-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh2p17-note b{color:#8b2500;}
+@media(max-width:900px){.bh2p17-fabbox{right:14px;}.bh2p17-tbl{font-size:11px;}.bh2p17-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh2p17-fabbox" id="bh2p17Box"><button class="bh2p17-btn" id="bh2p17Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh2p17-ic">譯</span><span class="bh2p17-ls"><span class="bh2p17-l1">本品 · 原文·白話·中觀</span><span class="bh2p17-l2">白話翻譯表</span></span></button></div><div class="bh2p17-modal" id="bh2p17Modal" role="dialog" aria-modal="true"><div class="bh2p17-card"><button class="bh2p17-close" id="bh2p17Close" type="button" aria-label="關閉">×</button><h3>卷二 · 第17品 白話翻譯表</h3><p class="sub">《大智度論》卷二·「從放牛見如來」· 原文↔白話↔中觀概念 逐段對照</p><table class="bh2p17-tbl"><caption>「從放牛見如來」· 原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh2p17-src">問曰： 汝愛剎利種淨飯王子字悉達多，以是故而大稱讚言一切智，一切智人無也！ 答曰： 不爾！汝惡邪故妬瞋佛，作妄語，實有一切智人。何以故？佛一切眾生中，身色顏貌，端正無比，相、德、明具，勝一切人。小人見佛身相，亦知是一切智人，何況大人！</td><td>有人問：你們只是因為偏愛剎帝利種姓、淨飯王之子——名叫悉達多的這個人，才故意大肆稱讚他是「一切智人」，其實世間根本沒有什麼一切智人！ 回答說：不是這樣的！你們是因為心懷惡意邪見，妒忌、瞋恨佛，才故意說這種虛妄的話，事實上確實有一切智人存在。為什麼呢？因為佛在一切眾生之中，身形容色端正莊嚴無與倫比，相好、功德、光明樣樣具足，超勝一切人。連見識淺薄的凡夫見到佛的身相，都能知道他是一切智人，何況是有智慧的大人物呢！</td><td class="bh2p17-guan"><b>由相好因緣證智德·非憑空信仰</b>——此段以「身色相好」等可現量觀察的因緣果報，反駁「一切智人不存在」的邪見，顯示信佛非盲信，乃依福慧圓滿之果報身而如理推知，仍不離因緣所生法的論證方式。</td></tr><tr><td class="bh2p17-src">如《放牛譬喻經》中說：摩伽陀國王頻婆娑羅，請佛三月，及五百弟子。王須新乳酪酥供養佛及比丘僧，語諸放牛人，來近處住，日日送新乳酪酥。竟三月，王憐愍此放牛人，語言：「汝往見佛，還出放牛。」諸放牛人往詣佛所，於道中自共論言：「我等聞人說佛是一切智人，我等是下劣小人，何能別知實有一切智人！」諸婆羅門喜好酥酪故，常來往諸放牛人所作親厚，放牛人由是聞婆羅門種種經書名字。故言：「四違陀經中治病法、鬪戰法、星宿法、祠天法、歌舞、論議難問法，如是等六十四種世間伎藝，淨飯王子廣學多聞，若知此事不足為難。其從生已來不放牛，我等以放牛祕法問之，若能解者，實是一切智人。」</td><td>正如《放牛譬喻經》中所說：摩揭陀國王頻婆娑羅，請佛與五百位弟子接受三個月的供養。國王需要新鮮的乳、酪、酥來供養佛與比丘僧眾，於是吩咐一群放牛人，遷居到附近住下，每天送新鮮的乳酪酥來。滿三個月後，國王憐憫這些放牛人（辛苦許久），便對他們說：「你們可以先去拜見佛，然後回去繼續放牛吧。」這些放牛人前往佛的住處，一路上互相議論說：「我們聽人說佛是一切智人，我們只是低下卑賤的小人物，怎麼能夠分辨出真的有一切智人呢！」（原來）那些婆羅門因為貪愛酥酪的緣故，經常往來親近這些放牛人，放牛人因此聽聞了婆羅門各種經書典籍的名目。於是他們便說：「四部吠陀經典中所載的治病法、鬥戰法、觀星宿法、祭祀天神法、歌舞技藝、辯論質難之法，像這樣共六十四種世間技藝，淨飯王的太子（悉達多）廣學多聞，就算通曉這些，也不算什麼稀奇困難的事。可是他從出生以來從未放過牛，我們就拿放牛人的祕訣、行話來考問他，如果他也能夠解答得出來，那就真的是一切智人了。」</td><td class="bh2p17-guan"><b>世間技藝與出世智慧之對照</b>——放牛人以自身專業（放牛祕法）作為檢驗「一切智」的標準，反映凡夫「以己度人」、以有限經驗為判準的局限；下文佛以放牛法喻十一種比丘修行法，正是善巧方便、隨順世間法而顯出世第一義的中觀善巧。</td></tr><tr><td class="bh2p17-src">作是論已，前入竹園，見佛光明照於林間。進前覓佛，見坐樹下，狀似金山，如酥投火，其炎大明，有似融金，散竹林間上，紫金光色，視之無厭，心大歡喜，自相謂言：</td><td>這樣議論之後，他們便前往竹林精舍，一進門就看見佛的光明照耀著整片林間。再往前尋找佛的所在，只見佛端坐在樹下，形貌就像一座金山，又如同酥油投入火中般光焰熾盛明亮，也像熔化的金汁一般，光彩灑滿竹林之間，呈現出紫金色的光澤，讓人怎麼看也看不厭，眾人心中大為歡喜，彼此互相說道：</td><td class="bh2p17-guan"><b>色身光明·福德果報之顯現</b>——佛身紫金光色、光明照林，是無量劫福慧修行所感得的果報莊嚴（色身），此莊嚴雖可見可觀，仍是緣起所生的世俗諦相，用以攝受眾生生信，而非別有一個常住不變的「自性佛身」。</td></tr><tr><td class="bh2p17-src">如是思惟已，禮佛而坐，問佛言：「放牛人有幾法成就，能令牛群番息？有幾法不成就，令牛群不增、不得安隱？」佛答言：「有十一法，放牛人能令牛群番息。何等十一？知色，知相，知刮刷，知覆瘡，知作煙，知好道，知牛所宜處，知好度濟，知安隱處，知留乳，知養牛主。若放牛人知此十一法，能令牛群番息；比丘亦如是，知十一法能增長善法。」</td><td>這樣想過之後，他們便向佛頂禮，然後坐下，向佛請問道：「放牛的人要具備幾種條件，才能使牛群繁衍興盛？又要是欠缺幾種條件，就會使牛群無法增長、不得安穩呢？」佛回答說：「放牛人只要具備十一種方法，就能使牛群繁衍興盛。是哪十一種呢？就是：懂得辨識毛色、懂得辨識相貌、懂得替牛刮刷身體、懂得包紮傷口、懂得升煙驅蟲、懂得選擇好路、懂得牛群適宜的處所、懂得選擇好的渡口、懂得安穩的住處、懂得留乳哺犢、懂得奉養牛主人。放牛人如果懂得這十一種方法，就能使牛群繁衍興盛；比丘修行也是同樣的道理，懂得（對應的）十一種方法，就能增長各種善法。」</td><td class="bh2p17-guan"><b>譬喻善巧·世法喻出世法</b>——佛以放牛人熟悉的日常技藝為譬喻媒介，逐一對應比丘修行的十一種法門，正是以眾生熟知的世俗法為橋樑，引導契入出世善法，體現中觀「不壞世間法而說第一義」的善巧方便。</td></tr><tr><td class="bh2p17-src">「云何知色？知黑、白、雜色；比丘亦如是，知一切色皆是四大，四大造。「云何知相？知牛吉不吉相，與他群合，因相則識；比丘亦如是，見善業相，知是智人；見惡業相，知是愚人。「云何刮刷？為諸虫飲血則增長諸瘡，刮刷則除害；比丘亦如是，惡邪覺觀虫飲善根血，增長心瘡，除則安隱。「云何覆瘡？若衣若草葉以防蚊虻惡刺；比丘亦如是，念正觀法，覆六情瘡，不令煩惱貪欲、瞋恚惡虫刺蕀所傷。「云何知作煙？除諸蚊虻，牛遙見煙則來趣向屋舍。比丘亦如是，如所聞而說，除諸結使蚊虻，以說法煙引眾生入於無我實相空舍中。「云何知道？知牛所行來去好惡道；比丘亦如是，知八聖道能至涅槃，離斷常惡道。「云何知牛所宜處？能令牛番息少病；比丘亦如是，說佛法時，得清淨法喜，諸善根增盛。「云何知濟？知易入易度無波浪惡虫處；比丘亦如是，能至多聞比丘所問法。說法者知前人心利鈍、煩惱輕重，令入好濟，安隱得度。「云何知安隱處？知所住處無虎、狼、師子、惡虫、毒獸；比丘亦如是，知四念處安隱，無煩惱、惡魔、毒獸，比丘入此，則安隱無患。「云何留乳？犢母愛念犢子故與乳，以留殘乳故犢母歡喜，則犢子不竭，牛主及放牛人，日日有益；比丘亦如是，居士白衣給施衣食，當知節量，不令罄竭，則檀越歡喜，信心不絕，受者無乏。「云何知養牛主？諸大特牛能守牛群故，應養護，不令羸瘦，飲以麻油，飾以瓔珞，標以鐵角，摩刷、讚譽稱等；比丘亦如是，眾僧中有威德大人，護益佛法，摧伏外道，能令八眾得種諸善根，隨其所宜恭敬供養等。」</td><td>「什麼叫懂得辨識毛色？就是能分辨牛是黑色、白色或雜色；比丘也是同樣的道理，了知一切色法皆是地水火風四大所構成、四大所生造。「什麼叫懂得辨識相貌？就是能分辨牛的吉相或不吉之相，讓牠與適合的牛群相配合，依相貌就能辨識清楚；比丘也是同樣的道理，見到善業之相，就知道這是有智慧的人；見到惡業之相，就知道這是愚癡的人。「什麼叫懂得刮刷？因為蟲子吸食牛血就會使傷口膿瘡增長擴大，經常刮刷就能除去這個禍害；比丘也是同樣的道理，邪惡的妄想分別如同蟲子吸食善根之血，會增長內心的瘡患，除去妄念心便得安穩。「什麼叫懂得包紮傷口？就是用衣物或草葉來防止蚊蟲、牛虻等惡蟲叮咬刺傷；比丘也是同樣的道理，以正念觀照佛法，遮覆眼耳鼻舌身意六根的瘡患，不讓貪欲、瞋恚等煩惱惡蟲刺傷自己。「什麼叫懂得升煙？可以驅除蚊虻，牛隻遠遠看見炊煙就會朝著屋舍的方向走來；比丘也是同樣的道理，依照所聽聞的佛法如實宣說，用說法的煙霧驅除各種煩惱結使的蚊虻，引導眾生進入無我實相的空寂舍宅之中。「什麼叫懂得辨路？就是能分辨牛隻來去行走的路是好路或壞路；比丘也是同樣的道理，了知八正道能夠到達涅槃，遠離斷見、常見這兩種邪惡的岔路。「什麼叫懂得牛群適宜的處所？能使牛群繁衍興盛、少生疾病；比丘也是同樣的道理，聽聞佛法的時候，能獲得清淨的法喜，使各種善根不斷增長茂盛。「什麼叫懂得渡口？就是知道容易進入、容易渡過、沒有波浪與惡蟲的地方；比丘也是同樣的道理，能夠前往多聞比丘處請教法義。說法的人了解對方根性利鈍、煩惱輕重的程度，引導他從適當的渡口進入，使他安穩地得到度脫。「什麼叫懂得安穩的住處？就是知道所居住的地方沒有老虎、豺狼、獅子、毒蟲、毒獸；比丘也是同樣的道理，了知安住於四念處是安穩的，沒有煩惱、惡魔、毒獸的侵擾，比丘進入此中修行，就能安穩而無禍患。「什麼叫懂得留乳？母牛因為疼愛小牛的緣故而分泌乳汁餵養牠，若懂得節制、留下殘餘的乳汁不擠盡，母牛就會歡喜，小牛的乳源也不會枯竭，牛主人與放牛人天天都能因此受益；比丘也是同樣的道理，在家居士布施衣食供養時，應當知道節制適量，不使供養的資源耗竭，這樣布施者（檀越）便能常懷歡喜、信心不斷，受供養的人也不虞匱乏。「什麼叫懂得奉養牛主人？那些能夠守護牛群的公牛，應當好好養護牠，不讓牠瘦弱，餵以麻油，用瓔珞裝飾牠，用鐵環標誌牠的角，經常替牠刷洗、稱揚讚美等等；比丘也是同樣的道理，僧團之中若有具足威德的大德長老，能護持增益佛法、摧伏外道邪見，使四眾、八眾都能各自種下種種善根，應當隨其所宜恭敬供養等等。」</td><td class="bh2p17-guan"><b>十一喻圓融·從世間事相到出世修證</b>——十一項放牛技藝與十一項比丘修行法門逐一對應，貫串「觀四大假合」「善惡業相」「對治煩惱」「說法度生」「安住聖道」「知量布施」「護持正法」等中觀修行要領，展現全論以譬喻善巧、層層遞進地將世俗事相導向緣起性空的第一義諦。</td></tr><tr><td class="bh2p17-src">放牛人聞此語已，如是思惟：「我等所知不過三四事，放牛師輩遠不過五六事，今聞此說，歎未曾有！若知此事，餘亦皆爾，實是一切智人，無復疑也。」是經，此中應廣說。以是故，知有一切智人。</td><td>放牛人聽聞這番話之後，這樣思惟道：「我們所懂得的放牛法不過三、四件事，就算是放牛的師傅輩，最多也不超過五、六件事，如今聽佛這樣說（十一法且句句相應），實在是前所未有、令人讚歎不已！如果佛連我們放牛的祕法都能通曉到這種程度，其他一切法自然也是同樣如此，這真的是一切智人，我們再沒有任何懷疑了。」這部經，此處應當詳細解說（其餘內容）。由此可知，世間確實有一切智人。</td><td class="bh2p17-guan"><b>以事驗理·現量成就聖言量</b>——放牛人以自身最熟悉、最私密的專業技藝去驗證佛智，發現絲毫不差，由此建立起對佛「一切智」的堅固信解；此段顯示中觀不廢分別觀察、依現量因緣建立正信，非強加信仰，而是「以小喻大、以近知遠」的漸次引導。</td></tr></tbody></table><p class="bh2p17-note">本表為卷二第17品「從放牛見如來」的原文·白話·中觀三欄對照。以《放牛譬喻經》放牛人考問佛的著名公案為主軸，佛以放牛十一法逐一對應比丘修行十一法，層層善巧譬喻，顯示一切智之成立既依福慧圓滿之果報身可為現量所徵，也依善巧說法度生之方便可為理量所驗，正是中觀「不壞世間法而說第一義」的具體展現。白話忠於原意、不增不減。</p></div></div>
+<script id="wy-bh2p17-js">(function(){
+var NS="bh2p17";
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById(NS+"Btn"),BOX=document.getElementById(NS+"Box"),MODAL=document.getElementById(NS+"Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=16;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id===NS+"Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH2P17:END-->
 </body>
 </html>
